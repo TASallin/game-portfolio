@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LateNiteUnreal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{07182609-8C3B-46FF-80F6-CA24B6459BB6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LateNiteUnreal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LateNiteUnrealEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D5EB6AD5-FE9B-4A95-8871-96C8E801BE91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LateNiteUnreal">
+      <UniqueIdentifier>{1E6B29DA-E46E-42D7-A749-08F887CBCD68}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LateNiteUnreal\ChapterDivider.cpp">
+      <Filter>Source\LateNiteUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LateNiteUnreal\ChapterDivider.h">
+      <Filter>Source\LateNiteUnreal</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\LateNiteUnreal\LateNiteUnreal.Build.cs">
+      <Filter>Source\LateNiteUnreal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LateNiteUnreal\LateNiteUnreal.cpp">
+      <Filter>Source\LateNiteUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LateNiteUnreal\LateNiteUnreal.h">
+      <Filter>Source\LateNiteUnreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

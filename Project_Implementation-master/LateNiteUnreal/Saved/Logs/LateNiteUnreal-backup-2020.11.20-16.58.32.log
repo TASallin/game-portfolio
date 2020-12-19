@@ -1,0 +1,1367 @@
+﻿Log file open, 11/20/20 11:41:20
+LogInit: Display: Running engine for game: LateNiteUnreal
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.391038
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin HorizonUIPlugin
+LogPluginManager: Mounting plugin RadarChart
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.20-16.41.24:600][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.20-16.41.24:600][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.20-16.41.24:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.20-16.41.24:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.20-16.41.24:601][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.20-16.41.24:649][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.20-16.41.24:649][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.20-16.41.24:650][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.20-16.41.24:654][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.20-16.41.24:654][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.20-16.41.24:668][  0]LogHAL: Display: Platform has ~ 16 GB [16977260544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.20-16.41.24:668][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.20-16.41.24:668][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.20-16.41.24:668][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.20-16.41.24:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.20-16.41.24:670][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.20-16.41.24:671][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.20-16.41.24:688][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.20-16.41.24:688][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.20-16.41.24:688][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.20-16.41.24:688][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.20-16.41.24:695][  0]LogInit: Computer: KCPC
+[2020.11.20-16.41.24:695][  0]LogInit: User: Kacey
+[2020.11.20-16.41.24:695][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.20-16.41.24:695][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.20-16.41.24:696][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.11.20-16.41.24:696][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.20-16.41.24:696][  0]LogMemory: Process Physical Memory: 114.54 MB used, 114.54 MB peak
+[2020.11.20-16.41.24:696][  0]LogMemory: Process Virtual Memory: 96.89 MB used, 96.89 MB peak
+[2020.11.20-16.41.24:696][  0]LogMemory: Physical Memory: 6629.37 MB used,  9561.41 MB free, 16190.78 MB total
+[2020.11.20-16.41.24:696][  0]LogMemory: Virtual Memory: 5164.89 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.11.20-16.41.24:708][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.20-16.41.25:859][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.20-16.41.25:873][  0]LogInit: Using OS detected language (en-US).
+[2020.11.20-16.41.25:873][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.20-16.41.25:972][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.20-16.41.26:771][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.20-16.41.27:410][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.20-16.41.27:410][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.20-16.41.31:927][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.20-16.41.31:927][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.20-16.41.31:927][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.20-16.41.31:927][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.20-16.41.31:993][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.11.20-16.41.31:993][  0]LogD3D11RHI:       8088/0/8095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.20-16.41.32:023][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.11.20-16.41.32:023][  0]LogD3D11RHI:       128/0/8095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.11.20-16.41.32:026][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.20-16.41.32:026][  0]LogD3D11RHI:       0/0/8095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.20-16.41.32:026][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.20-16.41.32:035][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.20-16.41.32:035][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.20-16.41.32:035][  0]LogWindows: EnumDisplayDevices:
+[2020.11.20-16.41.32:035][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.11.20-16.41.32:036][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.20-16.41.32:036][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.20-16.41.32:037][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.20-16.41.32:037][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2020.11.20-16.41.32:037][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.20-16.41.32:038][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.20-16.41.32:038][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.11.20-16.41.32:038][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.11.20-16.41.32:038][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
+[2020.11.20-16.41.32:038][  0]LogD3D11RHI:      Driver Date: 3-16-2018
+[2020.11.20-16.41.32:038][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.11.20-16.41.32:082][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.20-16.41.32:083][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.11.20-16.41.32:083][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.20-16.41.32:083][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.20-16.41.32:478][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.11.20-16.41.33:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.20-16.41.33:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.20-16.41.33:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.20-16.41.33:768][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.20-16.41.33:768][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.20-16.41.33:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.20-16.41.33:943][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.20-16.41.33:974][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.20-16.41.34:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.20-16.41.34:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.20-16.41.34:097][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.20-16.41.34:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.20-16.41.34:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.20-16.41.34:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.20-16.41.34:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.20-16.41.34:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.20-16.41.34:365][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.20-16.41.34:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.20-16.41.34:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.20-16.41.34:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.20-16.41.34:505][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.20-16.41.34:819][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.20-16.41.35:902][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../JRDProject/Project_Implementation/LateNiteUnreal/Intermediate/Shaders/WorkingDirectory/7136/).
+[2020.11.20-16.41.35:902][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kacey/AppData/Local/Temp/UnrealShaderWorkingDir/9EAF98784064D54F7B21B9B977BEEEC2/'.
+[2020.11.20-16.41.35:909][  0]LogXGEController: Cleaning working directory: C:/Users/Kacey/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.20-16.41.35:910][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.20-16.41.35:910][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.20-16.41.35:910][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.20-16.41.44:446][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.20-16.41.44:580][  0]LogDerivedDataCache: Loaded boot cache 0.13s 76MB C:/Users/Kacey/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.20-16.41.44:580][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kacey/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.20-16.41.44:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../JRDProject/Project_Implementation/LateNiteUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.20-16.41.44:581][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.20-16.41.44:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../JRDProject/Project_Implementation/LateNiteUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.20-16.41.44:581][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.20-16.41.44:680][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.20-16.41.44:680][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.20-16.41.44:680][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.20-16.41.44:681][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kacey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.20-16.41.44:681][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.20-16.41.44:681][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.20-16.41.44:977][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.20-16.41.45:198][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.20-16.41.46:381][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
+[2020.11.20-16.41.51:431][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.20-16.41.53:891][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.20-16.41.53:891][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.20-16.41.53:891][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.20-16.41.53:891][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.20-16.41.53:901][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.20-16.41.54:762][  0]LogNetVersion: LateNiteUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3054977858)
+[2020.11.20-16.42.06:807][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001BD30BB1F80), frame # 0
+[2020.11.20-16.42.06:807][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD30A4C180), frame # 0
+[2020.11.20-16.42.06:816][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD30A6DC00), frame # 0
+[2020.11.20-16.42.07:158][  0]LogPackageLocalizationCache: Processed 21 localized package path(s) for 1 prioritized culture(s) in 0.091637 seconds
+[2020.11.20-16.42.07:184][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.20-16.42.07:184][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.20-16.42.07:184][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.20-16.42.13:293][  0]LogLinker: Warning: While loading '../../Plugins/Marketplace/RadarChart/Content/Materials/MI_RadarChartTranslucent.uasset' failed to load '/Game/Textures/Grids/T_ModernGrid_M': Can't find file.
+[2020.11.20-16.42.13:309][  0]LogLinker: Warning: While loading '../../Plugins/Marketplace/RadarChart/Content/Materials/MI_RadarChartTranslucent.uasset' failed to load '/Game/Textures/Grids/T_ModernGrid_M': Can't find file.
+[2020.11.20-16.42.13:309][  0]LogLinker: Warning: While loading '../../Plugins/Marketplace/RadarChart/Content/Materials/MI_RadarChartTranslucent.uasset' failed to load '/Game/Textures/Grids/T_ModernGrid_M': Can't find file.
+[2020.11.20-16.42.13:309][  0]LogLinker: Warning: While loading '../../Plugins/Marketplace/RadarChart/Content/Materials/MI_RadarChartTranslucent.uasset' failed to load '/Game/Textures/Grids/T_ModernGrid_M': Can't find file.
+[2020.11.20-16.42.13:310][  0]LogLinker: Warning: While loading '../../Plugins/Marketplace/RadarChart/Content/Materials/MI_RadarChartTranslucent.uasset' failed to load '/Game/Textures/Grids/T_ModernGrid_M': Can't find file.
+[2020.11.20-16.42.13:310][  0]LoadErrors: Failed to load /Game/Textures/Grids/T_ModernGrid_M.T_ModernGrid_M Referenced by MI_RadarChartTranslucent
+[2020.11.20-16.42.13:310][  0]LogLinker: Warning: While loading '../../Plugins/Marketplace/RadarChart/Content/Materials/MI_RadarChartTranslucent.uasset' failed to load '/Game/Textures/Grids/T_ModernGrid_M': Can't find file.
+[2020.11.20-16.42.13:310][  0]LoadErrors: Failed to load /Game/Textures/Grids/T_ModernGrid_M.T_ModernGrid_M Referenced by MI_RadarChartTranslucent
+[2020.11.20-16.42.13:528][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.20-16.42.13:602][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.20-16.42.14:357][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/PuzzleOverview': Can't find file.
+[2020.11.20-16.42.14:357][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/PuzzleOverview': Can't find file.
+[2020.11.20-16.42.14:357][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/PuzzleOverview.PuzzleOverview_C'
+[2020.11.20-16.42.14:357][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part2b-BlockBLueprintComponents': Can't find file.
+[2020.11.20-16.42.14:357][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part2b-BlockBLueprintComponents': Can't find file.
+[2020.11.20-16.42.14:357][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part2b-BlockBLueprintComponents.Part2b-BlockBLueprintComponents_C'
+[2020.11.20-16.42.14:358][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part3-GridBlueprint': Can't find file.
+[2020.11.20-16.42.14:358][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part3-GridBlueprint': Can't find file.
+[2020.11.20-16.42.14:358][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part3-GridBlueprint.Part3-GridBlueprint_C'
+[2020.11.20-16.42.14:358][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part4-GridBluepint2': Can't find file.
+[2020.11.20-16.42.14:358][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part4-GridBluepint2': Can't find file.
+[2020.11.20-16.42.14:358][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part4-GridBluepint2.Part4-GridBluepint2_C'
+[2020.11.20-16.42.14:358][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part5-GameMode': Can't find file.
+[2020.11.20-16.42.14:358][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part5-GameMode': Can't find file.
+[2020.11.20-16.42.14:359][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part5-GameMode.Part5-GameMode_C'
+[2020.11.20-16.42.14:359][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part6-Controller': Can't find file.
+[2020.11.20-16.42.14:359][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part6-Controller': Can't find file.
+[2020.11.20-16.42.14:359][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part6-Controller.Part6-Controller_C'
+[2020.11.20-16.42.14:359][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part7-LevelBlueprint': Can't find file.
+[2020.11.20-16.42.14:359][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part7-LevelBlueprint': Can't find file.
+[2020.11.20-16.42.14:359][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part7-LevelBlueprint.Part7-LevelBlueprint_C'
+[2020.11.20-16.42.14:360][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part8-EverythingElse': Can't find file.
+[2020.11.20-16.42.14:360][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/Tutorial/Part8-EverythingElse': Can't find file.
+[2020.11.20-16.42.14:360][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part8-EverythingElse.Part8-EverythingElse_C'
+[2020.11.20-16.42.14:979][  0]SourceControl: Source control is disabled
+[2020.11.20-16.42.14:979][  0]SourceControl: Source control is disabled
+[2020.11.20-16.42.15:048][  0]SourceControl: Source control is disabled
+[2020.11.20-16.42.15:170][  0]SourceControl: Source control is disabled
+[2020.11.20-16.42.15:270][  0]SourceControl: Source control is disabled
+[2020.11.20-16.42.19:020][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.20-16.42.19:305][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.20-16.42.19:305][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.20-16.42.19:868][  0]LogOcInput: OculusInput pre-init called
+[2020.11.20-16.42.19:972][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.20-16.42.19:972][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.20-16.42.20:937][  0]LogEngine: Initializing Engine...
+[2020.11.20-16.42.20:953][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.20-16.42.20:953][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.20-16.42.20:969][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.007 s
+[2020.11.20-16.42.21:893][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.20-16.42.22:289][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.20-16.42.22:290][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD367F5C00), frame # 0
+[2020.11.20-16.42.22:296][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD36822200), frame # 0
+[2020.11.20-16.42.22:407][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.20-16.42.22:407][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.20-16.42.22:407][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.20-16.42.22:407][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.20-16.42.22:407][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.20-16.42.22:407][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.20-16.42.22:407][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.20-16.42.22:418][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.20-16.42.22:435][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.20-16.42.22:435][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.20-16.42.22:610][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.20-16.42.22:610][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.20-16.42.22:763][  0]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.11.20-16.42.22:778][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.20-16.42.22:841][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.20-16.42.22:841][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.20-16.42.22:842][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.20-16.42.22:843][  0]LogInit: FAudioDevice initialized.
+[2020.11.20-16.42.22:844][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.20-16.42.23:027][  0]LogDerivedDataCache: Saved boot cache 0.18s 76MB C:/Users/Kacey/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.20-16.42.23:037][  0]LogInit: Texture streaming: Enabled
+[2020.11.20-16.42.23:273][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.20-16.42.23:273][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.20-16.42.23:283][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.20-16.42.23:651][  0]LogInit: Transaction tracking system initialized
+[2020.11.20-16.42.24:065][  0]BlueprintLog: New page: Editor Load
+[2020.11.20-16.42.25:530][  0]LocalizationService: Localization service is disabled
+[2020.11.20-16.42.28:517][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.20-16.42.28:517][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.20-16.42.31:784][  0]SourceControl: Source control is disabled
+[2020.11.20-16.42.31:808][  0]LogUnrealEdMisc: Loading editor; pre map load, took 85.833
+[2020.11.20-16.42.31:834][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.42.31:901][  0]LightingResults: New page: Lighting Build
+[2020.11.20-16.42.32:042][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.42.32:059][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.42.32:070][  0]MapCheck: New page: Map Check
+[2020.11.20-16.42.32:070][  0]LightingResults: New page: Lighting Build
+[2020.11.20-16.42.32:342][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD367F5C00), frame # 0
+[2020.11.20-16.42.32:342][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD36822200), frame # 0
+[2020.11.20-16.42.32:343][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.11.20-16.42.33:158][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.11.20-16.42.33:159][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD36B1FE00), frame # 0
+[2020.11.20-16.42.33:159][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD372F2FC0), frame # 0
+[2020.11.20-16.42.33:451][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.42.33:527][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.11.20-16.42.33:527][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.42.33:531][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.722ms to complete.
+[2020.11.20-16.42.33:531][  0]LogFileHelpers: Loading map 'Template_Default' took 1.709
+[2020.11.20-16.42.34:157][  0]LogUnrealEdMisc: Total Editor Startup Time, took 88.182
+[2020.11.20-16.42.34:860][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.42.34:870][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.42.34:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.42.34:890][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.42.35:013][  0]LogCollectionManager: Loaded 0 collections in 0.000857 seconds
+[2020.11.20-16.42.35:117][  0]LogFileCache: Scanning file cache for directory 'D:/JRDProject/Project_Implementation/LateNiteUnreal/Saved/Collections/' took 0.00s
+[2020.11.20-16.42.35:117][  0]LogFileCache: Scanning file cache for directory 'D:/JRDProject/Project_Implementation/LateNiteUnreal/Content/Developers/Kacey/Collections/' took 0.00s
+[2020.11.20-16.42.35:117][  0]LogFileCache: Scanning file cache for directory 'D:/JRDProject/Project_Implementation/LateNiteUnreal/Content/Collections/' took 0.00s
+[2020.11.20-16.42.35:117][  0]LogContentBrowser: Native class hierarchy populated in 0.0226 seconds. Added 3441 classes and 831 folders.
+[2020.11.20-16.42.35:232][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.20-16.42.36:637][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.11.20-16.42.36:690][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.11.20-16.42.37:134][  0]LogSlate: Took 0.027173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.20-16.42.37:210][  0]LogSlate: Took 0.052185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.20-16.42.37:252][  0]LogSlate: Took 0.018889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.20-16.42.37:895][  0]LogRenderer: Reallocating scene render targets to support 1164x600 Format 10 NumSamples 1 (Frame:1).
+[2020.11.20-16.42.38:371][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.20-16.42.38:371][  0]LogLoad: (Engine Initialization) Total time: 92.40 seconds
+[2020.11.20-16.42.38:371][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.20-16.42.38:614][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.20-16.42.38:853][  0]LogSlate: Took 0.074223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.20-16.42.39:023][  0]LogSlate: Took 0.035758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.20-16.42.39:127][  1]LogAssetRegistry: Asset discovery search completed in 52.7477 seconds
+[2020.11.20-16.42.39:134][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2020.11.20-16.42.53:815][133]LogSlate: Window 'Message Log' being destroyed
+[2020.11.20-16.42.53:820][133]LogSlate: Window 'Message Log' being destroyed
+[2020.11.20-16.43.04:333][313]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.20-16.43.04:381][313]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.04:381][313]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.04:381][313]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.04:381][313]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.05:039][313]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.05:039][313]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.05:039][313]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.05:039][313]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.05:048][313]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.05:048][313]LoadErrors: Failed to load /Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData.mainMenuMap_BuiltData Referenced by PersistentLevel
+[2020.11.20-16.43.05:048][313]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.43.05:097][313]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave KakaoTalk_Audio_20201118_1745_40_980...
+[2020.11.20-16.43.05:108][313]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/LateNite/Music/KakaoTalk_Audio_20201118_1745_40_980.KakaoTalk_Audio_20201118_1745_40_980 will be modified from 40 to 40.
+[2020.11.20-16.43.05:945][313]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 6422272 while cooking SoundWave /Game/LateNite/Music/KakaoTalk_Audio_20201118_1745_40_980.KakaoTalk_Audio_20201118_1745_40_980.
+[2020.11.20-16.43.06:016][313]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap
+[2020.11.20-16.43.06:098][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.11.20-16.43.06:100][313]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.43.06:100][313]LightingResults: New page: Lighting Build
+[2020.11.20-16.43.06:100][313]LoadErrors: New page: Loading map: mainMenuMap.umap
+[2020.11.20-16.43.06:106][313]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.43.06:106][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.43.06:106][313]MapCheck: New page: Map Check
+[2020.11.20-16.43.06:106][313]LightingResults: New page: Lighting Build
+[2020.11.20-16.43.06:145][313]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD36B1FE00), frame # 1313
+[2020.11.20-16.43.06:145][313]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD372F2FC0), frame # 1313
+[2020.11.20-16.43.06:146][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.11.20-16.43.06:165][313]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.43.06:166][313]LogAIModule: Creating AISystem for world mainMenuMap
+[2020.11.20-16.43.06:166][313]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD36B1FC00), frame # 1313
+[2020.11.20-16.43.06:166][313]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD2E3C20C0), frame # 1313
+[2020.11.20-16.43.06:180][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.11.20-16.43.06:210][313]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.43.06:210][313]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2020.11.20-16.43.06:210][313]LogFileHelpers: Loading map 'mainMenuMap' took 0.110
+[2020.11.20-16.43.07:258][419]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.20-16.43.07:284][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.20-16.43.07:293][419]PIE: New page: PIE session: mainMenuMap (Nov 20, 2020, 6:43:07 AM)
+[2020.11.20-16.43.07:305][419]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.20-16.43.07:311][419]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.20-16.43.07:311][419]LogPlayLevel: Creating play world package: /Game/LateNite/LateNiteMaps/UEDPIE_0_mainMenuMap
+[2020.11.20-16.43.07:325][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014167s)
+[2020.11.20-16.43.07:326][419]LogAIModule: Creating AISystem for world mainMenuMap
+[2020.11.20-16.43.07:326][419]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD4916E400), frame # 1419
+[2020.11.20-16.43.07:326][419]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD49D40B80), frame # 1419
+[2020.11.20-16.43.07:326][419]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2020.11.20-16.43.07:326][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap to /Game/LateNite/LateNiteMaps/UEDPIE_0_mainMenuMap.mainMenuMap (0.015709s)
+[2020.11.20-16.43.07:339][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.11.20-16.43.07:349][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.20-16.43.07:349][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.20-16.43.07:349][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.20-16.43.07:349][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.20-16.43.07:349][419]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.20-16.43.07:349][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.20-16.43.07:349][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.20-16.43.07:349][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.20-16.43.07:350][419]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.20-16.43.07:350][419]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.20-16.43.07:360][419]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.20-16.43.07:360][419]LogAudioMixer: Display: 1: FrontRight
+[2020.11.20-16.43.07:463][419]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.11.20-16.43.07:463][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.20-16.43.07:463][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.20-16.43.07:463][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.20-16.43.07:463][419]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.20-16.43.07:481][419]LogInit: FAudioDevice initialized.
+[2020.11.20-16.43.09:064][419]LogTexture: Display: Building textures: gift_basket (AutoDXT, 2000X2000)
+[2020.11.20-16.43.09:064][419]LogLoad: Game class is 'LateNiteGame_C'
+[2020.11.20-16.43.09:146][419]LogWorld: Bringing World /Game/LateNite/LateNiteMaps/UEDPIE_0_mainMenuMap.mainMenuMap up for play (max tick rate 0) at 2020.11.20-11.43.09
+[2020.11.20-16.43.09:146][419]LogWorld: Bringing up level for play took: 0.000774
+[2020.11.20-16.43.09:146][419]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.11.20-16.43.09:175][419]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.11.20-16.43.09:278][419]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.11.20-16.43.09:296][419]PIE: Server logged in
+[2020.11.20-16.43.09:307][419]PIE: Play in editor total start time 2.033 seconds.
+[2020.11.20-16.43.34:924][205]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap:PersistentLevel.mainMenuMap
+[2020.11.20-16.43.36:535][205]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.11.20-16.43.37:885][205]LogSlate: Took 0.012857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.20-16.43.38:214][206]LogSlate: Took 0.016083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.20-16.43.57:037][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.43.57:037][249]LogWorld: BeginTearingDown for /Game/LateNite/LateNiteMaps/UEDPIE_0_mainMenuMap
+[2020.11.20-16.43.57:055][249]LogWorld: UWorld::CleanupWorld for mainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.43.57:055][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.43.57:064][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.20-16.43.57:068][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.43.57:112][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.43.57:129][249]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD49D40B80), frame # 5249
+[2020.11.20-16.43.57:129][249]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD4916E400), frame # 5249
+[2020.11.20-16.43.57:141][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.11.20-16.43.57:175][250]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.11.20-16.43.58:375][384]LogSlate: Window 'mainMenuMap' being destroyed
+[2020.11.20-16.43.58:381][384]LogSlate: Window 'mainMenuMap' being destroyed
+[2020.11.20-16.43.58:393][384]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.43.58:393][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.44.07:939][476]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/LateNite/UserInterface/MainMenuUI.MainMenuUI
+[2020.11.20-16.45.58:378][656]LogSlate: Window 'MainMenuUI' being destroyed
+[2020.11.20-16.45.58:383][656]LogSlate: Window 'MainMenuUI' being destroyed
+[2020.11.20-16.45.58:425][656]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.45.58:425][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.45.58:447][656]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.45.58:447][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.46.07:271][647]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap
+[2020.11.20-16.46.07:344][647]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.11.20-16.46.09:588][647]LogSlate: Window 'Save Content' being destroyed
+[2020.11.20-16.46.09:594][647]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.46.09:596][647]LightingResults: New page: Lighting Build
+[2020.11.20-16.46.09:596][647]LoadErrors: New page: Loading map: mainMenuMap.umap
+[2020.11.20-16.46.09:636][647]LogWorld: UWorld::CleanupWorld for mainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.46.09:636][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.46.09:636][647]MapCheck: New page: Map Check
+[2020.11.20-16.46.09:636][647]LightingResults: New page: Lighting Build
+[2020.11.20-16.46.09:667][647]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD2E3C20C0), frame # 13647
+[2020.11.20-16.46.09:667][647]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD36B1FC00), frame # 13647
+[2020.11.20-16.46.09:703][647]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.11.20-16.46.09:706][647]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:706][647]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:707][647]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:707][647]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:708][647]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:708][647]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:708][647]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:708][647]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:718][647]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:718][647]LoadErrors: Failed to load /Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData.mainMenuMap_BuiltData Referenced by PersistentLevel
+[2020.11.20-16.46.09:718][647]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.09:721][647]LogAIModule: Creating AISystem for world mainMenuMap
+[2020.11.20-16.46.09:721][647]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD8645F000), frame # 13647
+[2020.11.20-16.46.09:721][647]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD86ADA340), frame # 13647
+[2020.11.20-16.46.09:723][647]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.46.09:790][647]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.11.20-16.46.09:818][647]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.46.09:830][647]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 11.865ms to complete.
+[2020.11.20-16.46.09:830][647]LogFileHelpers: Loading map 'mainMenuMap' took 0.236
+[2020.11.20-16.46.11:130][794]LogSlate: Window 'Message Log' being destroyed
+[2020.11.20-16.46.11:136][794]LogSlate: Window 'Message Log' being destroyed
+[2020.11.20-16.46.12:620][958]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap
+[2020.11.20-16.46.12:640][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.11.20-16.46.14:374][958]LogSlate: Window 'Save Content' being destroyed
+[2020.11.20-16.46.14:379][958]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.46.14:381][958]LightingResults: New page: Lighting Build
+[2020.11.20-16.46.14:381][958]LoadErrors: New page: Loading map: mainMenuMap.umap
+[2020.11.20-16.46.14:382][958]LogWorld: UWorld::CleanupWorld for mainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.46.14:382][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.46.14:382][958]MapCheck: New page: Map Check
+[2020.11.20-16.46.14:382][958]LightingResults: New page: Lighting Build
+[2020.11.20-16.46.14:401][958]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD86ADA340), frame # 13958
+[2020.11.20-16.46.14:401][958]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD8645F000), frame # 13958
+[2020.11.20-16.46.14:403][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.11.20-16.46.14:405][958]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:405][958]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:405][958]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:405][958]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:406][958]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:406][958]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:406][958]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:406][958]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:412][958]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:412][958]LoadErrors: Failed to load /Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData.mainMenuMap_BuiltData Referenced by PersistentLevel
+[2020.11.20-16.46.14:412][958]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.14:414][958]LogAIModule: Creating AISystem for world mainMenuMap
+[2020.11.20-16.46.14:414][958]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD86D7B000), frame # 13958
+[2020.11.20-16.46.14:415][958]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD8B810A40), frame # 13958
+[2020.11.20-16.46.14:417][958]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.46.14:491][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.11.20-16.46.14:519][958]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.46.14:519][958]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2020.11.20-16.46.14:519][958]LogFileHelpers: Loading map 'mainMenuMap' took 0.140
+[2020.11.20-16.46.19:463][543]LogSlate: Window 'Message Log' being destroyed
+[2020.11.20-16.46.19:468][543]LogSlate: Window 'Message Log' being destroyed
+[2020.11.20-16.46.23:318][988]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap
+[2020.11.20-16.46.23:337][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.11.20-16.46.27:649][988]LogSlate: Window 'Save Content' being destroyed
+[2020.11.20-16.46.27:663][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LateNite/UserInterface/MainMenuUI" FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/UserInterface/MainMenuUI.uasset" SILENT=true
+[2020.11.20-16.46.27:794][988]LogSavePackage: Moving '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Saved/MainMenuUIF5313B8A411A3DC181C70B90742E49E7.tmp' to '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/UserInterface/MainMenuUI.uasset'
+[2020.11.20-16.46.27:841][988]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.46.27:841][988]LightingResults: New page: Lighting Build
+[2020.11.20-16.46.27:841][988]LoadErrors: New page: Loading map: mainMenuMap.umap
+[2020.11.20-16.46.27:877][988]LogWorld: UWorld::CleanupWorld for mainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.46.27:877][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.46.27:877][988]MapCheck: New page: Map Check
+[2020.11.20-16.46.27:877][988]LightingResults: New page: Lighting Build
+[2020.11.20-16.46.27:904][988]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD8B810A40), frame # 14988
+[2020.11.20-16.46.27:904][988]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD86D7B000), frame # 14988
+[2020.11.20-16.46.27:906][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.11.20-16.46.27:916][988]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:916][988]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:916][988]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:916][988]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:919][988]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:920][988]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:920][988]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:920][988]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:925][988]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:925][988]LoadErrors: Failed to load /Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData.mainMenuMap_BuiltData Referenced by PersistentLevel
+[2020.11.20-16.46.27:925][988]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.46.27:928][988]LogAIModule: Creating AISystem for world mainMenuMap
+[2020.11.20-16.46.27:928][988]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD8A2D0200), frame # 14988
+[2020.11.20-16.46.27:928][988]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD89BC5440), frame # 14988
+[2020.11.20-16.46.27:930][988]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.46.28:010][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.11.20-16.46.28:036][988]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.46.28:036][988]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.076ms to complete.
+[2020.11.20-16.46.28:036][988]LogFileHelpers: Loading map 'mainMenuMap' took 0.196
+[2020.11.20-16.46.28:076][988]AssetCheck: New page: Asset Save: MainMenuUI
+[2020.11.20-16.46.28:076][988]LogContentValidation: Display: Validating WidgetBlueprint /Game/LateNite/UserInterface/MainMenuUI.MainMenuUI
+[2020.11.20-16.46.30:839][313]LogSlate: Window 'Message Log' being destroyed
+[2020.11.20-16.46.30:844][313]LogSlate: Window 'Message Log' being destroyed
+[2020.11.20-16.46.35:373][839]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.20-16.46.35:390][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.20-16.46.35:390][839]PIE: New page: PIE session: mainMenuMap (Nov 20, 2020, 6:46:35 AM)
+[2020.11.20-16.46.35:390][839]LogPlayLevel: Creating play world package: /Game/LateNite/LateNiteMaps/UEDPIE_0_mainMenuMap
+[2020.11.20-16.46.35:392][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002644s)
+[2020.11.20-16.46.35:393][839]LogAIModule: Creating AISystem for world mainMenuMap
+[2020.11.20-16.46.35:393][839]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD29EDE200), frame # 15839
+[2020.11.20-16.46.35:393][839]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD6AD49580), frame # 15839
+[2020.11.20-16.46.35:394][839]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2020.11.20-16.46.35:394][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap to /Game/LateNite/LateNiteMaps/UEDPIE_0_mainMenuMap.mainMenuMap (0.003829s)
+[2020.11.20-16.46.35:414][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.11.20-16.46.35:418][839]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.20-16.46.35:418][839]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.20-16.46.35:418][839]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.20-16.46.35:418][839]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.20-16.46.35:418][839]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.20-16.46.35:418][839]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.20-16.46.35:419][839]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.20-16.46.35:419][839]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.20-16.46.35:419][839]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.20-16.46.35:419][839]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.20-16.46.35:427][839]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.20-16.46.35:427][839]LogAudioMixer: Display: 1: FrontRight
+[2020.11.20-16.46.35:532][839]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.11.20-16.46.35:532][839]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.20-16.46.35:532][839]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.20-16.46.35:532][839]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.20-16.46.35:532][839]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.20-16.46.35:548][839]LogInit: FAudioDevice initialized.
+[2020.11.20-16.46.35:553][839]LogLoad: Game class is 'LateNiteGame_C'
+[2020.11.20-16.46.35:554][839]LogWorld: Bringing World /Game/LateNite/LateNiteMaps/UEDPIE_0_mainMenuMap.mainMenuMap up for play (max tick rate 0) at 2020.11.20-11.46.35
+[2020.11.20-16.46.35:555][839]LogWorld: Bringing up level for play took: 0.000509
+[2020.11.20-16.46.35:555][839]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.11.20-16.46.35:558][839]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.11.20-16.46.35:559][839]PIE: Server logged in
+[2020.11.20-16.46.35:559][839]PIE: Play in editor total start time 0.171 seconds.
+[2020.11.20-16.46.41:137][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.46.41:137][493]LogWorld: BeginTearingDown for /Game/LateNite/LateNiteMaps/UEDPIE_0_mainMenuMap
+[2020.11.20-16.46.41:137][493]LogWorld: UWorld::CleanupWorld for mainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.46.41:137][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.46.41:143][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.20-16.46.41:146][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.46.41:189][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.46.41:190][493]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD6AD49580), frame # 16493
+[2020.11.20-16.46.41:190][493]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD29EDE200), frame # 16493
+[2020.11.20-16.46.41:192][493]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.11.20-16.46.41:220][494]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.11.20-16.46.46:035][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.11.20-16.47.09:703][690]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap:PersistentLevel.mainMenuMap
+[2020.11.20-16.47.38:279][882]LogSlate: Window 'mainMenuMap' being destroyed
+[2020.11.20-16.47.38:285][882]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.47.38:285][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.47.40:095][ 74]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:095][ 74]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:295][ 74]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:295][ 74]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:296][ 74]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:296][ 74]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:296][ 74]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:296][ 74]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:300][ 74]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:300][ 74]LoadErrors: Failed to load /Game/LateNite/LateNiteMaps/Intro_BuiltData.Intro_BuiltData Referenced by PersistentLevel
+[2020.11.20-16.47.40:300][ 74]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.40:345][ 74]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/Intro.Intro
+[2020.11.20-16.47.40:383][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.20-16.47.40:385][ 74]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.47.40:385][ 74]LightingResults: New page: Lighting Build
+[2020.11.20-16.47.40:385][ 74]LoadErrors: New page: Loading map: Intro.umap
+[2020.11.20-16.47.40:386][ 74]LogWorld: UWorld::CleanupWorld for mainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.47.40:386][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.47.40:387][ 74]MapCheck: New page: Map Check
+[2020.11.20-16.47.40:387][ 74]LightingResults: New page: Lighting Build
+[2020.11.20-16.47.40:407][ 74]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD89BC5440), frame # 21074
+[2020.11.20-16.47.40:407][ 74]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD8A2D0200), frame # 21074
+[2020.11.20-16.47.40:410][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.11.20-16.47.40:414][ 74]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.47.40:414][ 74]LogAIModule: Creating AISystem for world Intro
+[2020.11.20-16.47.40:414][ 74]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD83B0AC00), frame # 21074
+[2020.11.20-16.47.40:414][ 74]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD8315F740), frame # 21074
+[2020.11.20-16.47.40:436][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.11.20-16.47.40:464][ 74]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.47.40:464][ 74]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2020.11.20-16.47.40:464][ 74]LogFileHelpers: Loading map 'Intro' took 0.079
+[2020.11.20-16.47.44:937][583]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:938][583]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:938][583]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:938][583]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:939][583]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:939][583]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:939][583]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:939][583]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:945][583]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:946][583]LoadErrors: Failed to load /Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData.mainMenuMap_BuiltData Referenced by PersistentLevel
+[2020.11.20-16.47.44:946][583]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.44:949][583]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap
+[2020.11.20-16.47.44:969][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.11.20-16.47.44:971][583]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.47.44:971][583]LightingResults: New page: Lighting Build
+[2020.11.20-16.47.44:971][583]LoadErrors: New page: Loading map: mainMenuMap.umap
+[2020.11.20-16.47.44:972][583]LogWorld: UWorld::CleanupWorld for Intro, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.47.44:972][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.47.44:972][583]MapCheck: New page: Map Check
+[2020.11.20-16.47.44:972][583]LightingResults: New page: Lighting Build
+[2020.11.20-16.47.44:992][583]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD8315F740), frame # 21583
+[2020.11.20-16.47.44:992][583]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD83B0AC00), frame # 21583
+[2020.11.20-16.47.44:995][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.11.20-16.47.44:997][583]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.47.44:997][583]LogAIModule: Creating AISystem for world mainMenuMap
+[2020.11.20-16.47.44:998][583]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD87A91800), frame # 21583
+[2020.11.20-16.47.44:998][583]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD2A3891C0), frame # 21583
+[2020.11.20-16.47.45:021][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.11.20-16.47.45:048][583]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.47.45:048][583]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2020.11.20-16.47.45:048][583]LogFileHelpers: Loading map 'mainMenuMap' took 0.077
+[2020.11.20-16.47.46:470][743]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:470][743]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:470][743]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:471][743]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:471][743]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:471][743]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:471][743]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:471][743]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:475][743]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:475][743]LoadErrors: Failed to load /Game/LateNite/LateNiteMaps/Intro_BuiltData.Intro_BuiltData Referenced by PersistentLevel
+[2020.11.20-16.47.46:475][743]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap' failed to load '/Game/LateNite/LateNiteMaps/Intro_BuiltData': Can't find file.
+[2020.11.20-16.47.46:479][743]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/Intro.Intro
+[2020.11.20-16.47.46:501][743]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.11.20-16.47.46:502][743]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Intro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.47.46:502][743]LightingResults: New page: Lighting Build
+[2020.11.20-16.47.46:502][743]LoadErrors: New page: Loading map: Intro.umap
+[2020.11.20-16.47.46:536][743]LogWorld: UWorld::CleanupWorld for mainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.47.46:536][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.47.46:536][743]MapCheck: New page: Map Check
+[2020.11.20-16.47.46:536][743]LightingResults: New page: Lighting Build
+[2020.11.20-16.47.46:557][743]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD2A3891C0), frame # 21743
+[2020.11.20-16.47.46:557][743]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD87A91800), frame # 21743
+[2020.11.20-16.47.46:559][743]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.11.20-16.47.46:562][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.47.46:562][743]LogAIModule: Creating AISystem for world Intro
+[2020.11.20-16.47.46:562][743]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD87A93200), frame # 21743
+[2020.11.20-16.47.46:562][743]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD29E0C680), frame # 21743
+[2020.11.20-16.47.46:587][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.11.20-16.47.46:614][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.47.46:614][743]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.082ms to complete.
+[2020.11.20-16.47.46:614][743]LogFileHelpers: Loading map 'Intro' took 0.112
+[2020.11.20-16.47.49:232][ 28]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/LateNite/LateNiteMaps/Intro.Intro:PersistentLevel.Intro
+[2020.11.20-16.47.56:952][830]LogSlate: Window 'Intro' being destroyed
+[2020.11.20-16.47.56:975][830]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.47.56:975][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.47.58:153][951]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:153][951]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:153][951]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:153][951]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:154][951]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:154][951]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:154][951]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:154][951]LogLinker: Warning: Failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:160][951]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:160][951]LoadErrors: Failed to load /Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData.mainMenuMap_BuiltData Referenced by PersistentLevel
+[2020.11.20-16.47.58:160][951]LogLinker: Warning: While loading '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap' failed to load '/Game/LateNite/LateNiteMaps/mainMenuMap_BuiltData': Can't find file.
+[2020.11.20-16.47.58:164][951]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap
+[2020.11.20-16.47.58:188][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.11.20-16.47.58:190][951]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/mainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.47.58:190][951]LightingResults: New page: Lighting Build
+[2020.11.20-16.47.58:190][951]LoadErrors: New page: Loading map: mainMenuMap.umap
+[2020.11.20-16.47.58:226][951]LogWorld: UWorld::CleanupWorld for Intro, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.47.58:226][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.47.58:226][951]MapCheck: New page: Map Check
+[2020.11.20-16.47.58:226][951]LightingResults: New page: Lighting Build
+[2020.11.20-16.47.58:246][951]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD29E0C680), frame # 22951
+[2020.11.20-16.47.58:246][951]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD87A93200), frame # 22951
+[2020.11.20-16.47.58:248][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.11.20-16.47.58:251][951]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.47.58:251][951]LogAIModule: Creating AISystem for world mainMenuMap
+[2020.11.20-16.47.58:251][951]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD87A90800), frame # 22951
+[2020.11.20-16.47.58:251][951]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD83DDF600), frame # 22951
+[2020.11.20-16.47.58:275][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.11.20-16.47.58:302][951]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.47.58:302][951]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.075ms to complete.
+[2020.11.20-16.47.58:302][951]LogFileHelpers: Loading map 'mainMenuMap' took 0.113
+[2020.11.20-16.48.01:082][251]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/LateNite/LateNiteMaps/mainMenuMap.mainMenuMap:PersistentLevel.mainMenuMap
+[2020.11.20-16.48.28:360][420]LogSlate: Window 'mainMenuMap' being destroyed
+[2020.11.20-16.48.28:365][420]LogSlate: Window 'mainMenuMap' being destroyed
+[2020.11.20-16.48.28:366][420]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.48.28:366][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.48.49:954][946]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LateNite/Music/Music.Music
+[2020.11.20-16.49.28:444][178]LogSlate: Window 'Music' being destroyed
+[2020.11.20-16.49.28:449][178]LogSlate: Window 'Music' being destroyed
+[2020.11.20-16.49.28:472][178]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.49.28:472][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.50.12:316][120]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/budgetScreen.budgetScreen
+[2020.11.20-16.50.12:343][120]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.20-16.50.12:347][120]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/budgetScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.50.12:347][120]LightingResults: New page: Lighting Build
+[2020.11.20-16.50.12:347][120]LoadErrors: New page: Loading map: budgetScreen.umap
+[2020.11.20-16.50.12:385][120]LogWorld: UWorld::CleanupWorld for mainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.50.12:385][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.50.12:385][120]MapCheck: New page: Map Check
+[2020.11.20-16.50.12:386][120]LightingResults: New page: Lighting Build
+[2020.11.20-16.50.12:406][120]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD83DDF600), frame # 30120
+[2020.11.20-16.50.12:406][120]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD87A90800), frame # 30120
+[2020.11.20-16.50.12:408][120]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.11.20-16.50.12:411][120]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.50.12:411][120]LogAIModule: Creating AISystem for world budgetScreen
+[2020.11.20-16.50.12:411][120]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD83D6CC00), frame # 30120
+[2020.11.20-16.50.12:411][120]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD6442AFC0), frame # 30120
+[2020.11.20-16.50.12:433][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.11.20-16.50.12:461][120]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.50.12:461][120]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.079ms to complete.
+[2020.11.20-16.50.12:461][120]LogFileHelpers: Loading map 'budgetScreen' took 0.114
+[2020.11.20-16.50.19:588][938]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/LateNite/UserInterface/CalendarUI.CalendarUI
+[2020.11.20-16.50.36:010][617]LogEditorTransaction: Undo Move Widget
+[2020.11.20-16.51.56:180][856]LogTemp: Repeating last play command: Standalone Game
+[2020.11.20-16.51.56:222][856]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.11.20-16.51.58:002][856]LogSlate: Window 'Save Content' being destroyed
+[2020.11.20-16.51.58:035][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LateNite/UserInterface/CalendarUI" FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/UserInterface/CalendarUI.uasset" SILENT=true
+[2020.11.20-16.51.58:115][856]LogSavePackage: Moving '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Saved/CalendarUIF868605146A701507F79C78720A947ED.tmp' to '../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/UserInterface/CalendarUI.uasset'
+[2020.11.20-16.51.58:139][857]AssetCheck: New page: Asset Save: CalendarUI
+[2020.11.20-16.51.58:139][857]LogContentValidation: Display: Validating WidgetBlueprint /Game/LateNite/UserInterface/CalendarUI.CalendarUI
+[2020.11.20-16.52.15:446][ 53]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.11.20-16.52.15:452][ 53]LogPlayLevel: [PlayLevel] Compiling CalendarUI before play...
+[2020.11.20-16.52.15:540][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.11.20-16.52.15:541][ 53]LogPlayLevel: PlayLevel: Blueprint regeneration took 95 ms (1 blueprints)
+[2020.11.20-16.52.15:541][ 53]PIE: New page: PIE session: budgetScreen (Nov 20, 2020, 6:52:15 AM)
+[2020.11.20-16.52.15:541][ 53]LogPlayLevel: Creating play world package: /Game/LateNite/LateNiteMaps/UEDPIE_0_budgetScreen
+[2020.11.20-16.52.15:543][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001837s)
+[2020.11.20-16.52.15:544][ 53]LogAIModule: Creating AISystem for world budgetScreen
+[2020.11.20-16.52.15:544][ 53]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD63DE9200), frame # 39053
+[2020.11.20-16.52.15:544][ 53]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD827B4B80), frame # 39053
+[2020.11.20-16.52.15:544][ 53]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2020.11.20-16.52.15:544][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LateNite/LateNiteMaps/budgetScreen.budgetScreen to /Game/LateNite/LateNiteMaps/UEDPIE_0_budgetScreen.budgetScreen (0.003078s)
+[2020.11.20-16.52.15:568][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.11.20-16.52.15:571][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.20-16.52.15:571][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.20-16.52.15:571][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.20-16.52.15:571][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.20-16.52.15:571][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.20-16.52.15:571][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.20-16.52.15:571][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.20-16.52.15:571][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.20-16.52.15:571][ 53]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.20-16.52.15:571][ 53]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.20-16.52.15:580][ 53]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.20-16.52.15:580][ 53]LogAudioMixer: Display: 1: FrontRight
+[2020.11.20-16.52.15:707][ 53]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.11.20-16.52.15:707][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.20-16.52.15:707][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.20-16.52.15:707][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.20-16.52.15:707][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.20-16.52.15:724][ 53]LogInit: FAudioDevice initialized.
+[2020.11.20-16.52.15:735][ 53]LogLoad: Game class is 'LateNiteGame_C'
+[2020.11.20-16.52.15:736][ 53]LogWorld: Bringing World /Game/LateNite/LateNiteMaps/UEDPIE_0_budgetScreen.budgetScreen up for play (max tick rate 0) at 2020.11.20-11.52.15
+[2020.11.20-16.52.15:737][ 53]LogWorld: Bringing up level for play took: 0.000432
+[2020.11.20-16.52.15:737][ 53]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.11.20-16.52.15:741][ 53]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.11.20-16.52.15:743][ 53]PIE: Server logged in
+[2020.11.20-16.52.15:743][ 53]PIE: Play in editor total start time 0.298 seconds.
+[2020.11.20-16.52.17:088][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.52.17:088][186]LogWorld: BeginTearingDown for /Game/LateNite/LateNiteMaps/UEDPIE_0_budgetScreen
+[2020.11.20-16.52.17:089][186]LogWorld: UWorld::CleanupWorld for budgetScreen, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.52.17:089][186]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.52.17:098][186]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.20-16.52.17:102][186]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.52.17:124][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.52.17:148][186]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD827B4B80), frame # 39186
+[2020.11.20-16.52.17:148][186]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD63DE9200), frame # 39186
+[2020.11.20-16.52.17:150][186]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.11.20-16.52.17:178][187]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.11.20-16.52.27:447][109]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.20-16.52.27:462][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.20-16.52.27:463][109]PIE: New page: PIE session: budgetScreen (Nov 20, 2020, 6:52:27 AM)
+[2020.11.20-16.52.27:463][109]LogPlayLevel: Creating play world package: /Game/LateNite/LateNiteMaps/UEDPIE_0_budgetScreen
+[2020.11.20-16.52.27:465][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001891s)
+[2020.11.20-16.52.27:466][109]LogAIModule: Creating AISystem for world budgetScreen
+[2020.11.20-16.52.27:466][109]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD8A2D1200), frame # 40109
+[2020.11.20-16.52.27:466][109]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD8209FB00), frame # 40109
+[2020.11.20-16.52.27:466][109]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2020.11.20-16.52.27:466][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LateNite/LateNiteMaps/budgetScreen.budgetScreen to /Game/LateNite/LateNiteMaps/UEDPIE_0_budgetScreen.budgetScreen (0.003078s)
+[2020.11.20-16.52.27:490][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.11.20-16.52.27:493][109]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.20-16.52.27:493][109]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.20-16.52.27:493][109]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.20-16.52.27:493][109]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.20-16.52.27:493][109]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.20-16.52.27:493][109]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.20-16.52.27:493][109]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.20-16.52.27:493][109]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.20-16.52.27:494][109]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.20-16.52.27:494][109]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.20-16.52.27:501][109]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.20-16.52.27:501][109]LogAudioMixer: Display: 1: FrontRight
+[2020.11.20-16.52.27:614][109]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.11.20-16.52.27:614][109]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.20-16.52.27:614][109]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.20-16.52.27:614][109]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.20-16.52.27:614][109]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.20-16.52.27:631][109]LogInit: FAudioDevice initialized.
+[2020.11.20-16.52.27:645][109]LogLoad: Game class is 'LateNiteGame_C'
+[2020.11.20-16.52.27:646][109]LogWorld: Bringing World /Game/LateNite/LateNiteMaps/UEDPIE_0_budgetScreen.budgetScreen up for play (max tick rate 0) at 2020.11.20-11.52.27
+[2020.11.20-16.52.27:646][109]LogWorld: Bringing up level for play took: 0.000472
+[2020.11.20-16.52.27:646][109]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.11.20-16.52.27:650][109]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.11.20-16.52.27:652][109]PIE: Server logged in
+[2020.11.20-16.52.27:653][109]PIE: Play in editor total start time 0.191 seconds.
+[2020.11.20-16.52.29:055][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.52.29:055][240]LogWorld: BeginTearingDown for /Game/LateNite/LateNiteMaps/UEDPIE_0_budgetScreen
+[2020.11.20-16.52.29:055][240]LogWorld: UWorld::CleanupWorld for budgetScreen, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.52.29:056][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.52.29:064][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.20-16.52.29:067][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.52.29:110][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.52.29:111][240]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD8209FB00), frame # 40240
+[2020.11.20-16.52.29:111][240]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD8A2D1200), frame # 40240
+[2020.11.20-16.52.29:113][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.11.20-16.52.29:144][241]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.11.20-16.52.35:243][755]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/Calendar.Calendar
+[2020.11.20-16.52.35:267][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.11.20-16.52.35:268][755]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/Calendar.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.52.35:268][755]LightingResults: New page: Lighting Build
+[2020.11.20-16.52.35:268][755]LoadErrors: New page: Loading map: Calendar.umap
+[2020.11.20-16.52.35:294][755]LogWorld: UWorld::CleanupWorld for budgetScreen, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.52.35:294][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.52.35:294][755]MapCheck: New page: Map Check
+[2020.11.20-16.52.35:294][755]LightingResults: New page: Lighting Build
+[2020.11.20-16.52.35:318][755]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD6442AFC0), frame # 40755
+[2020.11.20-16.52.35:318][755]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD83D6CC00), frame # 40755
+[2020.11.20-16.52.35:320][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.11.20-16.52.35:323][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.52.35:323][755]LogAIModule: Creating AISystem for world Calendar
+[2020.11.20-16.52.35:323][755]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD8FDE7C00), frame # 40755
+[2020.11.20-16.52.35:323][755]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD6B3F07C0), frame # 40755
+[2020.11.20-16.52.35:349][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.11.20-16.52.35:377][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.52.35:377][755]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2020.11.20-16.52.35:377][755]LogFileHelpers: Loading map 'Calendar' took 0.108
+[2020.11.20-16.52.37:472][939]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.20-16.52.37:489][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.20-16.52.37:490][939]PIE: New page: PIE session: Calendar (Nov 20, 2020, 6:52:37 AM)
+[2020.11.20-16.52.37:490][939]LogPlayLevel: Creating play world package: /Game/LateNite/LateNiteMaps/UEDPIE_0_Calendar
+[2020.11.20-16.52.37:491][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001485s)
+[2020.11.20-16.52.37:492][939]LogAIModule: Creating AISystem for world Calendar
+[2020.11.20-16.52.37:492][939]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD87ED6C00), frame # 40939
+[2020.11.20-16.52.37:492][939]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD6AED8680), frame # 40939
+[2020.11.20-16.52.37:492][939]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2020.11.20-16.52.37:492][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LateNite/LateNiteMaps/Calendar.Calendar to /Game/LateNite/LateNiteMaps/UEDPIE_0_Calendar.Calendar (0.002611s)
+[2020.11.20-16.52.37:515][939]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.11.20-16.52.37:518][939]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.20-16.52.37:518][939]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.20-16.52.37:518][939]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.20-16.52.37:518][939]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.20-16.52.37:518][939]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.20-16.52.37:518][939]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.20-16.52.37:518][939]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.20-16.52.37:518][939]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.20-16.52.37:518][939]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.20-16.52.37:518][939]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.20-16.52.37:527][939]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.20-16.52.37:527][939]LogAudioMixer: Display: 1: FrontRight
+[2020.11.20-16.52.37:628][939]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.11.20-16.52.37:628][939]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.20-16.52.37:628][939]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.20-16.52.37:628][939]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.20-16.52.37:629][939]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.20-16.52.37:645][939]LogInit: FAudioDevice initialized.
+[2020.11.20-16.52.37:652][939]LogLoad: Game class is 'LateNiteGame_C'
+[2020.11.20-16.52.37:653][939]LogWorld: Bringing World /Game/LateNite/LateNiteMaps/UEDPIE_0_Calendar.Calendar up for play (max tick rate 0) at 2020.11.20-11.52.37
+[2020.11.20-16.52.37:653][939]LogWorld: Bringing up level for play took: 0.000309
+[2020.11.20-16.52.37:654][939]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.11.20-16.52.37:658][939]PIE: Server logged in
+[2020.11.20-16.52.37:659][939]PIE: Play in editor total start time 0.17 seconds.
+[2020.11.20-16.52.49:725][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.52.49:725][108]LogWorld: BeginTearingDown for /Game/LateNite/LateNiteMaps/UEDPIE_0_Calendar
+[2020.11.20-16.52.49:726][108]LogWorld: UWorld::CleanupWorld for Calendar, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.52.49:726][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.52.49:732][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.20-16.52.49:735][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.52.49:757][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.20-16.52.49:779][108]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD6AED8680), frame # 42108
+[2020.11.20-16.52.49:779][108]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD87ED6C00), frame # 42108
+[2020.11.20-16.52.49:781][108]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.11.20-16.52.49:815][109]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.11.20-16.53.00:465][213]LogSlate: Window 'CalendarUI' being destroyed
+[2020.11.20-16.53.00:471][213]LogSlate: Window 'CalendarUI' being destroyed
+[2020.11.20-16.53.00:475][213]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.53.00:475][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.53.00:478][213]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.53.00:478][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.53.04:996][722]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LateNite/LateNiteMaps/budgetScreen.budgetScreen
+[2020.11.20-16.53.05:021][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.11.20-16.53.05:023][722]Cmd: MAP LOAD FILE="../../../../JRDProject/Project_Implementation/LateNiteUnreal/Content/LateNite/LateNiteMaps/budgetScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-16.53.05:023][722]LightingResults: New page: Lighting Build
+[2020.11.20-16.53.05:023][722]LoadErrors: New page: Loading map: budgetScreen.umap
+[2020.11.20-16.53.05:024][722]LogWorld: UWorld::CleanupWorld for Calendar, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-16.53.05:024][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-16.53.05:024][722]MapCheck: New page: Map Check
+[2020.11.20-16.53.05:024][722]LightingResults: New page: Lighting Build
+[2020.11.20-16.53.05:043][722]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD6B3F07C0), frame # 43722
+[2020.11.20-16.53.05:043][722]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD8FDE7C00), frame # 43722
+[2020.11.20-16.53.05:045][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.11.20-16.53.05:047][722]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-16.53.05:047][722]LogAIModule: Creating AISystem for world budgetScreen
+[2020.11.20-16.53.05:047][722]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD8B61AA00), frame # 43722
+[2020.11.20-16.53.05:047][722]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD977C0CC0), frame # 43722
+[2020.11.20-16.53.05:071][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.11.20-16.53.05:097][722]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-16.53.05:097][722]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2020.11.20-16.53.05:098][722]LogFileHelpers: Loading map 'budgetScreen' took 0.074
+[2020.11.20-16.53.08:650][112]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/LateNite/UserInterface/Player_Budget.Player_Budget
+[2020.11.20-16.53.12:563][409]LogEditorTransaction: Undo Move Widget
+[2020.11.20-16.54.08:606][908]LogEditorTransaction: Undo Move Widget
+[2020.11.20-16.56.22:223][ 49]LogEditorFactories: Performing atomic reimport of [C:/Users/Kacey/Documents/BudgetUI.png]
+[2020.11.20-16.56.22:223][ 49]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kacey/Documents/BudgetUI.png)
+[2020.11.20-16.56.22:256][ 49]LogTexture: Display: Building textures: BudgetUI (AutoDXT, 1920X1080)
+[2020.11.20-16.56.22:313][ 49]LogEditorFactories: -- imported successfully
+[2020.11.20-16.58.25:222][810]LogSlate: Window 'Message' being destroyed
+[2020.11.20-16.58.25:228][810]Message dialog closed, result: Yes, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/LateNite/CharacterAssets/BudgetUI
+[2020.11.20-16.58.25:228][810]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kacey/Documents/BudgetUI.png)
+[2020.11.20-16.58.27:683][810]LogSlate: Window 'Message' being destroyed
+[2020.11.20-16.58.27:688][810]Message dialog closed, result: Yes, title: Message, text: You are about to import 'BudgetUI' over an existing texture. Would you like to overwrite the existing settings?
+
+Yes or Yes to All: Overwrite the existing settings.
+No or No to All: Preserve the existing settings.
+Cancel: Abort the operation.
+[2020.11.20-16.58.27:719][810]LogTexture: Display: Building textures: BudgetUI (AutoDXT, 1920X1080)
+[2020.11.20-16.58.27:949][812]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.11.20-16.58.32:008][812]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.20-16.58.32:008][812]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.11.20-16.58.32:024][812]LogWindows: Error: === Critical error: ===
+[2020.11.20-16.58.32:024][812]LogWindows: Error: 
+[2020.11.20-16.58.32:024][812]LogWindows: Error: Fatal error: [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp] [Line: 855] 
+[2020.11.20-16.58.32:024][812]LogWindows: Error: Rendering thread exception:
+[2020.11.20-16.58.32:024][812]LogWindows: Error: Assertion failed: ObjectWeakPtr.IsValid(bEvenIfPendingKill, bThreadSafe) [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateUTextureResource.cpp] [Line: 54] 
+[2020.11.20-16.58.32:024][812]LogWindows: Error: Texture BudgetUI has become invalid.  This means the resource was garbage collected while slate was using it
+[2020.11.20-16.58.32:024][812]LogWindows: Error: 
+[2020.11.20-16.58.32:024][812]LogWindows: Error: 
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffadeb53b29 KERNELBASE.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7fbae9e6 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7fbb1dc8 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7f93e53d UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7f8c97b5 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7f8cbaf0 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa594e92ae UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa59494168 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa594a3e39 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa594aa0dc UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa594a11f5 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa594b3c0e UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7f6e87d8 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7f6e8aa3 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7edbf892 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7edc53d4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.11.20-16.58.32:024][812]LogWindows: Error: [Callstack] 0x00007ffa7fbd025b UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:025][812]LogWindows: Error: [Callstack] 0x00007ffa7fbc7c30 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.20-16.58.32:025][812]LogWindows: Error: [Callstack] 0x00007ffae0d17c24 KERNEL32.DLL!UnknownFunction []
+[2020.11.20-16.58.32:025][812]LogWindows: Error: [Callstack] 0x00007ffae0e6d4d1 ntdll.dll!UnknownFunction []
+[2020.11.20-16.58.32:025][812]LogWindows: Error: 
+[2020.11.20-16.58.32:025][812]LogWindows: Error: 
+[2020.11.20-16.58.32:025][812]LogWindows: Error: 
+[2020.11.20-16.58.32:025][812]LogWindows: Error: 
+[2020.11.20-16.58.32:086][812]LogExit: Executing StaticShutdownAfterError
+[2020.11.20-16.58.32:100][812]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.11.20-16.58.32:100][812]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.11.20-16.58.32:154][812]Log file closed, 11/20/20 11:58:32

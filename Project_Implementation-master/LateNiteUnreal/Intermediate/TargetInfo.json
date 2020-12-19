@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LateNiteUnreal",
+			"Path": "D:\\Documents\\georgia tech\\year 4 semester 1\\Project Design\\duplicated project\\Project_Implementation\\LateNiteUnreal\\Source\\LateNiteUnreal.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LateNiteUnrealEditor",
+			"Path": "D:\\Documents\\georgia tech\\year 4 semester 1\\Project Design\\duplicated project\\Project_Implementation\\LateNiteUnreal\\Source\\LateNiteUnrealEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
