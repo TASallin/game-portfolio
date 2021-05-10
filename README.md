@@ -7,3 +7,5 @@ The Price of Wealth - A unity project over the course of a year, worked on prima
 It is a roguelite game in a college setting, primarily text based. Due to a variety of complications a completed version of the game was lost, so this is a partially completed version
 
 Procedural Dungeons Project - A unity project created individually during a procedural content course at Georgia Tech. It features an algorithm that generates a random dungeon on a tile-based grid with customizable parameters for room quantity, size, hallway shape, intra-room patterns, and others. This project requires the Unity editor to view.
+
+Composition Playlist - music I created for my projects can be found at this link https://www.youtube.com/playlist?list=PLmbeYj47cD4q2EQqttXAL3MXGtzwndZ5x
