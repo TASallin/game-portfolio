@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cd8c258f8fb3e044cab03b66af36374c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - onMaterial: {instanceID: 0}
+  - clicky: {fileID: 8300000, guid: 408f620d0d1b18e488b2dafca870cb3d, type: 3}
+  - source: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &197662781589854576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 197662781589854581}
+  - component: {fileID: 197662781589854578}
+  - component: {fileID: 197662781589854579}
+  - component: {fileID: 4179245460709905924}
+  - component: {fileID: 7435797237330433087}
+  - component: {fileID: 8949763657774013604}
+  - component: {fileID: 7311533976201278083}
+  m_Layer: 0
+  m_Name: Room Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &197662781589854581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197662781589854576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &197662781589854578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197662781589854576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89b91615d0d506f44aad35b31f3c0b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimap: {fileID: 0}
+--- !u!114 &197662781589854579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197662781589854576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba7a5abcb63f1945b9318f245daff82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomHolder: {fileID: 197662781589854576}
+  wall: {fileID: 3006830894072866008, guid: b160f0e2344bdbd41ac1793f0fa8edda, type: 3}
+  doorWall: {fileID: 5259364334769127872, guid: acddc611be966e44e82a3fe1914b820a,
+    type: 3}
+  floor: {fileID: 665450722590380129, guid: f86e5adab8c415745bd12d25e4aed935, type: 3}
+  cameraMover: {fileID: 151245107927468434, guid: fec861bfb387e0f4ba2ee6a290fc6eda,
+    type: 3}
+  player: {fileID: 0}
+  loadingScreen: {fileID: 0}
+  minimap: {fileID: 0}
+  mapTile: {fileID: 770725920903840054, guid: ff05a8edb40f66d45aac4b3c220cd62f, type: 3}
+  roomObject: {fileID: 8309949617994731897, guid: 791f6bcbde6b7c84f83cd13a54a9ce5d,
+    type: 3}
+  jukebox: {fileID: 0}
+  wallColor:
+  - {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 0}
+  - {r: 0.11792451, g: 0.9524616, b: 1, a: 0}
+  - {r: 0.7311399, g: 1, b: 0.0990566, a: 0}
+  - {r: 0.2512189, g: 0.039215676, b: 0.44313726, a: 0}
+  - {r: 1, g: 0, b: 0, a: 0}
+  floorColor:
+  - {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0}
+  - {r: 0.13585499, g: 0.12148453, b: 0.6603774, a: 0}
+  - {r: 0.5459406, g: 0.056069776, b: 0.5660378, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0.7924528, g: 0.4798548, b: 0.24296904, a: 0}
+  tutoritexture: {fileID: 2100000, guid: 1c0924d606c11eb4092706b4e5f34ee0, type: 2}
+  roomLength: 50
+  startX: 0
+  startZ: 0
+--- !u!114 &4179245460709905924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197662781589854576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3866261a4daca6e4b8a328b26ff0fd36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7435797237330433087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197662781589854576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6443b441c2da5541be05cf383877a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthCollectible: {fileID: 6681013077263810189, guid: 3990aab64f7a94633aa2d5e31229b6b1,
+    type: 3}
+  shieldCollectible: {fileID: 1076358969097869919, guid: 5867fa076ea914d4cac0a78c5d25a132,
+    type: 3}
+  speedCollectible: {fileID: 8031992890605992120, guid: 40d66a07d85e146d3944cd2c1b772cdc,
+    type: 3}
+  mine: {fileID: 6904014481956035599, guid: a341d428046347241a95002eeadf6f9b, type: 3}
+  spikes: {fileID: 6605557573594228469, guid: d352fdb3bea054b318b2d8069d1f1bd1, type: 3}
+  button: {fileID: 1386587111178843376, guid: 8bd71eb125f63844ca0d2ecf10c10077, type: 3}
+  terminal: {fileID: 3214002654764988641, guid: 2354326d9cc4fed40bfc86edd4742421,
+    type: 3}
+  robot: {fileID: 5148921307480067324, guid: 2db9fa0cf51f07c4d8418da2e6f8e35a, type: 3}
+  missile: {fileID: 9034258845703853252, guid: c5ce4133c03a5674fa39e1d6d2404f19, type: 3}
+  pathNetwork: {fileID: 9161946108510723615, guid: 5c80c52a983c6a244a81b1e58135dc18,
+    type: 3}
+  pathNode: {fileID: 486144091940197264, guid: c72d543e0b7618449943486fc8a71ca7, type: 3}
+  pathMine: {fileID: 6878415023131904731, guid: a6d51145e2d8a4b0c8a2364e5a3b7e65,
+    type: 3}
+  laser: {fileID: 8778330212245194646, guid: 33c1ebc3e61f87745a0de8e2f98fc2e6, type: 3}
+  laserButton: {fileID: 1386587111178843376, guid: 6dd51c6b326b5f246b36e72528c9a1c0,
+    type: 3}
+  stairs: {fileID: 3680595228204293676, guid: b20b2449fecb3da46961bc267bc0a8ae, type: 3}
+  pillar: {fileID: 3261978969158289878, guid: e4fac6bc30e49314797a645f3650c769, type: 3}
+  box: {fileID: 8896647547644955856, guid: 649a5407b924c5a48bc8ad93b972097a, type: 3}
+  walkway: {fileID: 7570225282213951516, guid: 6d206096e86296a47b0e2e7aa49b62d1, type: 3}
+  block: {fileID: 8409514373918678016, guid: 098f2a5ad6299b240b60766ee7113719, type: 3}
+  ladder: {fileID: 6488531960696665647, guid: cb5aeba47f97ead448844bfb084f4e63, type: 3}
+  crawler: {fileID: 3713761548439845627, guid: a42a03a336741654b82082a316f92a08, type: 3}
+  swordCrawler: {fileID: 3713761548439845627, guid: c5cbd2682fc345f438601fd5de850d8e,
+    type: 3}
+  gunCrawler: {fileID: 3713761548439845627, guid: 31359400338784843b62b86c71ff4717,
+    type: 3}
+  bossTurret: {fileID: 7089586866478163474, guid: 31d4bfb7b4d385b49b4f07add2fdff9c,
+    type: 3}
+  dataDisc: {fileID: 6315633299835606463, guid: a63509760284f624aa159e607c1ee9be,
+    type: 3}
+  missileLauncher: {fileID: 3435734551580797144, guid: b91526f7bef67474f9e207eb93a33ee6,
+    type: 3}
+  laserBlaster: {fileID: 9194980918894457679, guid: 919102f8481aa0d49ae0809c75d94c5f,
+    type: 3}
+  pathBoss: {fileID: 7089586866478163474, guid: 58f2d787cfd88de4f9945c986c6334ea,
+    type: 3}
+  turret: {fileID: 2627635360832378821, guid: cd8499a3746dd5c40806fde8cc34d0bf, type: 3}
+  pathTurret: {fileID: 2627635360832378821, guid: fc15a07b69d5cf747a6bb5bfb2f8828f,
+    type: 3}
+  roomHolder: {fileID: 0}
+  loadingScreen: {fileID: 0}
+--- !u!114 &8949763657774013604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197662781589854576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705e5bd73e6b22342b9f18b8cc74be66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthCollectible: {fileID: 6681013077263810189, guid: 3990aab64f7a94633aa2d5e31229b6b1,
+    type: 3}
+  shieldCollectible: {fileID: 1076358969097869919, guid: 5867fa076ea914d4cac0a78c5d25a132,
+    type: 3}
+  speedCollectible: {fileID: 8031992890605992120, guid: 40d66a07d85e146d3944cd2c1b772cdc,
+    type: 3}
+  bigstairs: {fileID: 8491878282662531841, guid: bcc533f6650b9e546985e7d83c1e0f56,
+    type: 3}
+  r4: {fileID: 2486402574348454419, guid: 01908cfc9384b2041864e11361d123a3, type: 3}
+  highplatform: {fileID: 8894149315620307381, guid: 720b7311de8be1846a25087bce372eb7,
+    type: 3}
+  higherplatform: {fileID: 7979829683330197151, guid: b42525c500516f24b8c1d339f60b8827,
+    type: 3}
+  longspikes: {fileID: 7983190214762448786, guid: 2583a61ee7eb84442bca53e96492b92c,
+    type: 3}
+  longerspikes: {fileID: 1594691254013846342, guid: 46994433872a66149af1fbbe3e41e5c3,
+    type: 3}
+  mine: {fileID: 6904014481956035599, guid: a341d428046347241a95002eeadf6f9b, type: 3}
+  spikes: {fileID: 6605557573594228469, guid: d352fdb3bea054b318b2d8069d1f1bd1, type: 3}
+  button: {fileID: 1386587111178843376, guid: 8bd71eb125f63844ca0d2ecf10c10077, type: 3}
+  fakebutton: {fileID: 1386587111178843376, guid: 12238cb5cab18724fa019fc142ccf1d9,
+    type: 3}
+  terminal: {fileID: 3214002654764988641, guid: 2354326d9cc4fed40bfc86edd4742421,
+    type: 3}
+  robot: {fileID: 5148921307480067324, guid: 2db9fa0cf51f07c4d8418da2e6f8e35a, type: 3}
+  missile: {fileID: 9034258845703853252, guid: c5ce4133c03a5674fa39e1d6d2404f19, type: 3}
+  pathNetwork: {fileID: 9161946108510723615, guid: 5c80c52a983c6a244a81b1e58135dc18,
+    type: 3}
+  pathNode: {fileID: 486144091940197264, guid: c72d543e0b7618449943486fc8a71ca7, type: 3}
+  pathMine: {fileID: 6878415023131904731, guid: a6d51145e2d8a4b0c8a2364e5a3b7e65,
+    type: 3}
+  laser: {fileID: 8778330212245194646, guid: 33c1ebc3e61f87745a0de8e2f98fc2e6, type: 3}
+  laserButton: {fileID: 1386587111178843376, guid: 6dd51c6b326b5f246b36e72528c9a1c0,
+    type: 3}
+  stairs: {fileID: 3680595228204293676, guid: b20b2449fecb3da46961bc267bc0a8ae, type: 3}
+  pillar: {fileID: 3261978969158289878, guid: e4fac6bc30e49314797a645f3650c769, type: 3}
+  box: {fileID: 8896647547644955856, guid: 649a5407b924c5a48bc8ad93b972097a, type: 3}
+  walkway: {fileID: 7570225282213951516, guid: 6d206096e86296a47b0e2e7aa49b62d1, type: 3}
+  block: {fileID: 8409514373918678016, guid: 098f2a5ad6299b240b60766ee7113719, type: 3}
+  ladder: {fileID: 6488531960696665647, guid: cb5aeba47f97ead448844bfb084f4e63, type: 3}
+  crawler: {fileID: 3713761548439845627, guid: a42a03a336741654b82082a316f92a08, type: 3}
+  swordCrawler: {fileID: 3713761548439845627, guid: c5cbd2682fc345f438601fd5de850d8e,
+    type: 3}
+  gunCrawler: {fileID: 3713761548439845627, guid: 31359400338784843b62b86c71ff4717,
+    type: 3}
+  bossTurret: {fileID: 7089586866478163474, guid: 31d4bfb7b4d385b49b4f07add2fdff9c,
+    type: 3}
+  dataDisc: {fileID: 6315633299835606463, guid: a63509760284f624aa159e607c1ee9be,
+    type: 3}
+  missileLauncher: {fileID: 3435734551580797144, guid: b91526f7bef67474f9e207eb93a33ee6,
+    type: 3}
+  laserBlaster: {fileID: 9194980918894457679, guid: 919102f8481aa0d49ae0809c75d94c5f,
+    type: 3}
+  pathBoss: {fileID: 7089586866478163474, guid: 58f2d787cfd88de4f9945c986c6334ea,
+    type: 3}
+  turret: {fileID: 2627635360832378821, guid: cd8499a3746dd5c40806fde8cc34d0bf, type: 3}
+  pathTurret: {fileID: 2627635360832378821, guid: fc15a07b69d5cf747a6bb5bfb2f8828f,
+    type: 3}
+  roomHolder: {fileID: 0}
+  loadingScreen: {fileID: 0}
+--- !u!114 &7311533976201278083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197662781589854576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0efde4bd754f44ebf60d11b7426eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPortal: {fileID: 4292511659114491148, guid: b37ad3a6c03b14e4ba570df1555d0813,
+    type: 3}
+  endPortal: {fileID: 8504869427014557847, guid: 81fc54933b7214ac8bc26b3dd026ab99,
+    type: 3}
+  buttonPlatform: {fileID: 2974804971011520570, guid: fddcb0c6e6e664fea989d69cf10f159c,
+    type: 3}
+  pathNetwork: {fileID: 9161946108510723615, guid: 5c80c52a983c6a244a81b1e58135dc18,
+    type: 3}
+  pathNode: {fileID: 486144091940197264, guid: c72d543e0b7618449943486fc8a71ca7, type: 3}
+  platformAgent: {fileID: 4254949997750377878, guid: 844f41c69cf844c309f77636fe4fb7ec,
+    type: 3}
+  turret: {fileID: 2627635360832378821, guid: cd8499a3746dd5c40806fde8cc34d0bf, type: 3}
+  spikes: {fileID: 6605557573594228469, guid: d352fdb3bea054b318b2d8069d1f1bd1, type: 3}
+  stairs: {fileID: 3680595228204293676, guid: b20b2449fecb3da46961bc267bc0a8ae, type: 3}
+  pillar: {fileID: 3261978969158289878, guid: e4fac6bc30e49314797a645f3650c769, type: 3}
+  block: {fileID: 8409514373918678016, guid: 098f2a5ad6299b240b60766ee7113719, type: 3}
+  platform: {fileID: 5393522373865403978, guid: 765ed052326b24976ba05b22e2bdefea,
+    type: 3}
+  button: {fileID: 1386587111178843376, guid: 8bd71eb125f63844ca0d2ecf10c10077, type: 3}
+  healthCollectible: {fileID: 6681013077263810189, guid: 3990aab64f7a94633aa2d5e31229b6b1,
+    type: 3}
+  shieldCollectible: {fileID: 1076358969097869919, guid: 5867fa076ea914d4cac0a78c5d25a132,
+    type: 3}
+  mine: {fileID: 6904014481956035599, guid: a341d428046347241a95002eeadf6f9b, type: 3}
