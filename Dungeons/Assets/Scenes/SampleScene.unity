@@ -338,15 +338,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a46b467f44e1a42a136bb7a19107a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSize: 40
-  zSize: 40
+  xSize: 25
+  zSize: 25
   roomSize: 0.5
   roomDensity: 0.5
   hallwayOrder: 0.5
   rectangularity: 0.5
   interiorFeatures: 0.5
   treasureDensity: 0.5
-  pallette: 0
+  pallette: 1
   randomParameters: 1
   randomSeed: 1
   seed: 14
