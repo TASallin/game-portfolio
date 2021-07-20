@@ -3,15 +3,17 @@ public class Bonfire : Character {
     public Bonfire() {
 	    health = 100; maxHP = 100; strength = 1; power = 0; charge = 0; defense = 0; guard = 0;
 		baseAccuracy = 6; accuracy = 6; dexterity = 0; evasion = 0; type = "Bonfire"; passive = new Passive(this);
-		quirk = Quirk.GetQuirk(this); special = null; player = false; champion = false; recruitable = false; status.goopImmune = true;
+		quirk = new Passive(this); special = null; player = false; champion = false; recruitable = false; status.goopImmune = true;
         CreateDrops();
     }	
 	
 	public override TimedMethod[] EnemyTurn () {
-		FratLord f = (FratLord) Party.GetEnemy(1);
+		FratLord f = (FratLord) Party.GetEnemy(0);
+		Attacks.SetAudio("Fire Hit", 6);
 		if (Attacks.EvasionCheck(Party.GetPlayer(), GetAccuracy())) {
 			TimedMethod[] firePart = new TimedMethod[] {new TimedMethod(60, "Log", new object[] {
-				ToString() + " was compelled to jump the bonfire, and failed"}),
+				Party.GetPlayer().ToString() + " was compelled to jump the bonfire, and failed"}),
+				new TimedMethod(0, "Audio", new object[] {"Running"}),
 			    new TimedMethod(0, "StagnantAttack", new object[] {false, 5, 5, GetAccuracy(), true, false, false})};
 			TimedMethod[] fratPart = f.Fail();
 			TimedMethod[] moves = new TimedMethod[firePart.Length + fratPart.Length];
@@ -21,7 +23,8 @@ public class Bonfire : Character {
 		} else {
 			Party.enemySlot = 1;
 			TimedMethod[] firePart = new TimedMethod[] {new TimedMethod(60, "Log", new object[] {
-				ToString() + " was compelled to jump the bonfire"}),
+				Party.GetPlayer().ToString() + " was compelled to jump the bonfire"}),
+				new TimedMethod(0, "Audio", new object[] {"Running"}),
 			    new TimedMethod(0, "AttackAny", new object[] {this, Party.GetPlayer(), 5, 5, GetAccuracy(), true, false, false})};
 			TimedMethod[] fratPart = f.Third();
 			TimedMethod[] moves = new TimedMethod[firePart.Length + fratPart.Length];

@@ -5,20 +5,22 @@ public class TeamAttack : Special {
 	
 	public override TimedMethod[] UseSupport (int i) {
 		Attacks.SetAudio("Blunt Hit", 15);
-		TimedMethod[] moves = new TimedMethod[Party.playerCount + 2];
+		TimedMethod[] moves = new TimedMethod[Party.playerCount + 3];
 		moves[0] = new TimedMethod(60, "Log", new object[] {Party.members[i].ToString() + " led a team attack"});
 		moves[1] = new TimedMethod(0, "Audio", new object[] {"Whistle"});
 		int index = 0;
 		int count = 1;
 		Character current;
-		while (count < Party.playerCount) {
+		while (index < Party.playerCount) {
 			current = Party.members[index];
 		    if (index != i && current != null && current.GetAlive() && !current.GetStunned() && !current.GetAsleep() && !current.GetGooped()
-				    && !current.GetApathy()) {
+				    && !current.GetApathy() && !current.GetPossessed()) {
 				moves[count + 1] = new TimedMethod(0, "AttackAny", new object[] {
 					current, Party.GetEnemy(), current.GetStrength(), current.GetStrength() + 4, current.GetAccuracy(), true, false, false});
-			    count++;
+			} else {
+				moves[count + 1] = new TimedMethod("Null");
 			}
+			count++;
 		    index++;
 		}
 		moves[moves.Length - 1] =  new TimedMethod(0, "StagnantAttack", new object[] {true, Party.members[i].GetStrength(),

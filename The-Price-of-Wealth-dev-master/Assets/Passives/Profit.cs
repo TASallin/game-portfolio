@@ -5,7 +5,7 @@ public class Profit : Passive {
 	public override TimedMethod[] Check(bool player) {
     if (Party.usedItems > 0) {		
 		self.GainPower(Party.usedItems);
-		new TimedMethod(0, "CharLogSprite", new object[] {Party.usedItems.ToString(), self.partyIndex, "power", player});
+		return new TimedMethod[] {new TimedMethod(0, "CharLogSprite", new object[] {Party.usedItems.ToString(), self.partyIndex, "power", player})};
 	}
     return new TimedMethod[0];
 	}

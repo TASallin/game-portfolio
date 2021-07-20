@@ -20,6 +20,7 @@ public class ExplodingKitchen : Event {
 		damage.text = "-3 hp to party";
 		damage.options1 = new LinkedList<TimedMethod>();
 		damage.options1.AddLast(new TimedMethod(0, "DamageAll", new object[] {3}));
+		damage.options1.AddLast(new TimedMethod("Resolve"));
 		damage.optionText1 = "Oh no";
 		options1 = new LinkedList<TimedMethod>();
 		optionText1 = "Save the stove!";

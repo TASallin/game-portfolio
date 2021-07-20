@@ -375,7 +375,7 @@ public class Battle : MonoBehaviour {
 	}
 	
 	public void DisableLeadReplace () {
-		recruitMember.transform.Find("Member 1").gameObject.GetComponent<Button>().interactable = false;
+		recruitMember.transform.Find("MembersButtonGroup").Find("Member 1").gameObject.GetComponent<Button>().interactable = false;
 	}
 	
 	public void Items () {
@@ -690,7 +690,7 @@ public class Battle : MonoBehaviour {
 		GetEnemy();
 	}
 	
-	public void Win () {
+	public void Win() {
 		    methodQueue.Clear();
 			Score.victories++;
 			statusBars.transform.Find("Player Status").GetComponent<StatusBarP>().Check();

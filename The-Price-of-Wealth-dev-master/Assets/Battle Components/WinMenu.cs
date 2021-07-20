@@ -25,7 +25,7 @@ public class WinMenu : MonoBehaviour {
 		
 	}
 	
-	void Awake () {
+	void OnEnable () {
 		selected = 0;
 		items = Party.GetItems();
 		loot = Party.GetLoot();

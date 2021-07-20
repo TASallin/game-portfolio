@@ -99,7 +99,7 @@ public class Status {
 			temp = new TimedMethod[messages.Length + 1];
 			messages.CopyTo(temp, 0);
 			temp[messages.Length] = new TimedMethod(
-			   0, "CharaLogSprite", new object[] {regeneration.ToString(), self.partyIndex, "regeneration", self.GetPlayer()});
+			   0, "CharLogSprite", new object[] {regeneration.ToString(), self.partyIndex, "regeneration", self.GetPlayer()});
 			messages = temp;
 		}
 		if (blinded > 0) {
@@ -192,7 +192,7 @@ public class Status {
 			return new TimedMethod[] {new TimedMethod(0, "CharLogDelay", new object[] {"Poison", self.partyIndex, "poison", self.GetPlayer()}),
 			    new TimedMethod(0, "Audio", new object[] {"Poison"})};
 		}
-		return new TimedMethod[] {new TimedMethod(0, "CharLogDelay", new object[] {"IMMUNE", self.partyIndex, "poion", self.GetPlayer()}),
+		return new TimedMethod[] {new TimedMethod(0, "CharLogDelay", new object[] {"IMMUNE", self.partyIndex, "poison", self.GetPlayer()}),
 		    new TimedMethod("Null")};
 	}
 	
@@ -242,7 +242,7 @@ public class Status {
 			return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Blind"}),
 			    new TimedMethod(0, "CharLogDelay", new object[] {"Blind", self.partyIndex, "blind", self.GetPlayer()})};
 		}
-		return new TimedMethod[] {new TimedMethod(0, "CharLogDelay", new object[] {"IMMUNE", self.partyIndex,  "blid", self.GetPlayer()}),
+		return new TimedMethod[] {new TimedMethod(0, "CharLogDelay", new object[] {"IMMUNE", self.partyIndex,  "blind", self.GetPlayer()}),
     		new TimedMethod("Null")};
 	}
 	
@@ -314,7 +314,10 @@ public class Status {
 			s += "Regeneration - Recover " + regeneration.ToString() + " hp every turn\n";
 		}
 		if (possessed > 0) {
-			s += "Possessed - Unusable and attacks you each turn";
+			s += "Possessed - Unusable and attacks you each turn\n";
+		}
+		if (firewall) {
+			s += "Firewall - Characters that switch out take damage";
 		}
 		return s;
 	}
@@ -344,6 +347,9 @@ public class Status {
 		}
 		if (possessed > 0) {
 			s += "Possessed ";
+		}
+		if (firewall) {
+			s += "Firewall ";
 		}
 		return s;
 	}

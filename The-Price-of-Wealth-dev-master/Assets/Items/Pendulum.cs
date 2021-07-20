@@ -5,9 +5,9 @@ public class Pendulum : Item {
 	public override TimedMethod[] Use () {
 		if (Attacks.EvasionCycle(Party.GetPlayer().GetAccuracy() * 2, Party.GetEnemy())) {
 			TimedMethod[] sleepPart = Party.GetEnemy().status.Sleep();
-			return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Hypnotize"}), sleepPart[0], sleepPart[1]};
+			return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Hypnosis"}), sleepPart[0], sleepPart[1]};
 		} else {
-			return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Hypnotize"}), new TimedMethod(60, "Log", new object[] {"miss"})};
+			return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Hypnosis"}), new TimedMethod(60, "Log", new object[] {"miss"})};
 		}
 	}
 }

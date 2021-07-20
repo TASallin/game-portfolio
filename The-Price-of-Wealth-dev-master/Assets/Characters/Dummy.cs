@@ -2,8 +2,8 @@ public class Dummy : Character {
    
     public Dummy() {
 	    health = 100; maxHP = 100; strength = 1; power = 0; charge = 0; defense = 0; guard = 0;
-		baseAccuracy = 0; accuracy = 0; dexterity = 0; evasion = 0; type = "Dummy"; passive = new Passive(this);
-		quirk = Quirk.GetQuirk(this); special = null; player = false; champion = false; recruitable = false; status.goopImmune = true;
+		baseAccuracy = 0; accuracy = 0; dexterity = 0; evasion = 0; type = "Dummy"; passive = new Vaccinated(this);
+		quirk = new Average(this); special = null; player = false; champion = false; recruitable = false; status.goopImmune = true;
         CreateDrops();
     }	
 	

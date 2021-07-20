@@ -47,7 +47,7 @@ public class Coach : Character {
 			    new TimedMethod(0, "Audio", new object[] {"Clean"})};
 		}
 		if (Party.enemyCount > 1) {
-			Attacks.SetAudio("BluntHit", 10);
+			Attacks.SetAudio("Blunt Hit", 10);
 			int former = Party.enemySlot;
 			for (int i = 0; i < 4; i++) {
 				if (i != Party.enemySlot - 1 && Party.enemies[i] != null && Party.enemies[i].GetAlive()) {

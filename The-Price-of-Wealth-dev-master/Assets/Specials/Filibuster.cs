@@ -4,6 +4,8 @@ public class Filibuster : Special {
 	
 	public override TimedMethod[] UseSupport(int i) {
 		TimedMethod[] totalSleep = new TimedMethod[] {new TimedMethod("Null"), new TimedMethod("Null"), new TimedMethod("Null"),
+	    	new TimedMethod("Null"), new TimedMethod("Null"), new TimedMethod("Null"), new TimedMethod("Null"), new TimedMethod("Null"),
+			new TimedMethod("Null"), new TimedMethod("Null"), new TimedMethod("Null"),
 	    	new TimedMethod("Null"), new TimedMethod("Null"), new TimedMethod("Null"), new TimedMethod("Null"), new TimedMethod("Null")};
 		int index = 0;
 		TimedMethod[] sleepPart;
@@ -18,7 +20,6 @@ public class Filibuster : Special {
 		index = 8;
 		foreach (Character c in Party.enemies) {
 			if (c != null && c.GetAlive()) {
-				c.status.Sleep();
 				sleepPart = c.status.Sleep();
 				totalSleep[index] = sleepPart[0];
 				totalSleep[index + 1] = sleepPart[1];

@@ -37,6 +37,7 @@ public class MathMajor : Character {
 	public override TimedMethod[] EnemyTurn () {
 		//TimedMethod[] extra = status.Check();
 		if (GetAsleep() || GetStunned() || GetPassing()) {
+			status.passing = false;
 			factorial = 0;
 			answer = 1;
 			return new TimedMethod[] {new TimedMethod(0, "CharLogSprite", new object[] {"SKIP", Party.enemySlot - 1, "skip", false}),

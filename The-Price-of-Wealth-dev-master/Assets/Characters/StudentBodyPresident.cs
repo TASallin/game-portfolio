@@ -31,6 +31,7 @@ public class StudentBodyPresident : Character {
 	
 	public TimedMethod[] Spotlight() {
 	  	int steps = new System.Random().Next(Party.enemyCount - 1);
+		int selfSlot = Party.enemySlot;
 		for (int i = 0; i < 4; i++) {
 			if (Party.enemies[i] != null && Party.enemies[i].GetAlive() && i != Party.enemySlot - 1) {
 			    if (steps == 0) {
@@ -40,7 +41,12 @@ public class StudentBodyPresident : Character {
 					Party.GetEnemy().GainEvasion(3);
 					Party.GetEnemy().GainAccuracy(1);
 			    	return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {ToString() 
-				        + " put the spotlight on " + Party.GetEnemy().ToString()}), new TimedMethod(0, "EnemySwitch", new object[] {1, i + 1})};
+				        + " put the spotlight on " + Party.GetEnemy().ToString()}), new TimedMethod(0, "EnemySwitch", new object[] {Party.enemySlot, selfSlot}),
+						new TimedMethod(0, "Audio", new object[] {"Recursion"}),
+						new TimedMethod(0, "CharLogSprite", new object[] {"2", Party.enemySlot - 1, "power", false}),
+						new TimedMethod(0, "CharLogSprite", new object[] {"5", Party.enemySlot - 1, "charge", false}),
+						new TimedMethod(0, "CharLogSprite", new object[] {"3", Party.enemySlot - 1, "evasion", false}),
+						new TimedMethod(0, "CharLogSprite", new object[] {"1", Party.enemySlot - 1, "accuracy", false})};
     			} else {
 	    			steps--;
 	    		}
@@ -51,6 +57,7 @@ public class StudentBodyPresident : Character {
 	
 	public TimedMethod[] FreeFood() {
 		int steps = new System.Random().Next(Party.enemyCount - 1);
+		int selfSlot = Party.enemySlot;
 		for (int i = 0; i < 4; i++) {
 			if (Party.enemies[i] != null && Party.enemies[i].GetAlive() && i != Party.enemySlot - 1) {
 			    if (steps == 0) {
@@ -58,7 +65,10 @@ public class StudentBodyPresident : Character {
 					Party.GetEnemy().Heal(20);
 					Party.GetEnemy().GainGuard(1);
 			    	return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {ToString() 
-				        + " enticed " + Party.GetEnemy().ToString() + " with free food"}), new TimedMethod(0, "EnemySwitch", new object[] {1, i + 1})};
+				        + " enticed " + Party.GetEnemy().ToString() + " with free food"}), new TimedMethod(0, "EnemySwitch", new object[] {Party.enemySlot, selfSlot}),
+						new TimedMethod(0, "Audio", new object[] {"Eat"}),
+						new TimedMethod(0, "CharLogSprite", new object[] {"20", Party.enemySlot - 1, "healing", false}),
+						new TimedMethod(0, "CharLogSprite", new object[] {"1", Party.enemySlot - 1, "guard", false})};
     			} else {
 	    			steps--;
 	    		}
@@ -68,27 +78,34 @@ public class StudentBodyPresident : Character {
 	}
 	
 	public TimedMethod[] TeamAttack() {
-		TimedMethod[] moves = new TimedMethod[Party.enemyCount + 2];
+		TimedMethod[] moves = new TimedMethod[Party.enemyCount + 4];
+		Attacks.SetAudio("Blunt Hit", 15);
 		moves[0] = new TimedMethod(60, "Log", new object[] {ToString() + " led a team attack and slinked to the back in doing so"});
-		moves[1] = new TimedMethod(0, "Audio", new object[] {"Skill1"});
+		moves[1] = new TimedMethod(0, "Audio", new object[] {"Whistle"});
 		int index = 0;
 		int count = 1;
 		Character current;
-		while (count < Party.enemyCount) {
+		while (index < Party.enemyCount) {
 			current = Party.enemies[index];
-		    if (index != Party.enemyCount - 1 && current != null && current.GetAlive()) {
+		    if (index != Party.enemySlot - 1 && current != null && current.GetAlive() && !current.GetStunned() && !current.GetAsleep() && !current.GetGooped()
+				    && !current.GetApathy()) {
 				moves[count + 1] = new TimedMethod(0, "AttackAny", new object[] {
 					current, Party.GetPlayer(), current.GetStrength(), current.GetStrength() + 4, current.GetAccuracy(), true, false, false});
-			    count++;
+			} else {
+				moves[count + 1] = new TimedMethod("Null");
 			}
+			count++;
 		    index++;
 		}
+		moves[moves.Length - 2] =  new TimedMethod(0, "StagnantAttack", new object[] {false, GetStrength(),
+		    GetStrength() + 4, GetAccuracy(), true, true, false});
 		int steps = new System.Random().Next(Party.enemyCount - 1);
+		int selfSlot = Party.enemySlot;
 		for (int i = 0; i < 4; i++) {
 			if (Party.enemies[i] != null && Party.enemies[i].GetAlive() && i != Party.enemySlot - 1) {
 			    if (steps == 0) {
 					Party.enemySlot = i + 1;
-			    	moves[moves.Length - 1] =  new TimedMethod(0, "EnemySwitch", new object[] {1, i});
+			    	moves[moves.Length - 1] =  new TimedMethod(0, "EnemySwitch", new object[] {Party.enemySlot, selfSlot});
     			} else {
 	    			steps--;
 	    		}
@@ -124,23 +141,29 @@ public class StudentBodyPresident : Character {
 			} else {
 				current = new PsychMajor();
 			}
-			current.SetRecruitable(false);
+			//current.SetRecruitable(false);
 			Party.AddEnemy(current);
 		}
-		return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {ToString() + "Surrounded themself with minions"})};
+		return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Recruit"}),
+			new TimedMethod(60, "Log", new object[] {ToString() + " Surrounded themself with minions"})};
 	}
 	
 	public TimedMethod[] Panic () {
-		return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {ToString() + " freaked out, stuck in front"})};
+		return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {ToString() + " freaked out, stuck in front"}),
+			new TimedMethod(0, "Audio", new object[] {"Skip Turn"}),
+			new TimedMethod(0, "CharLogSprite", new object[] {"SKIP", Party.enemySlot - 1, "skip", false})};
 	}
 	
 	public TimedMethod[] Clean () {
-		return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {ToString() + " escaped the goop"})};
+		status.gooped = false;
+		return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {ToString() + " escaped the goop"}),
+			new TimedMethod(0, "Audio", new object[] {"Clean"}),
+			new TimedMethod(0, "CharLogSprite", new object[] {"Cleaned", Party.enemySlot - 1, "goop", false})};
 	}
 	
 	public override void CreateDrops() {
-		drops = ItemDrops.FromPool(new Item[] {new Smartphone(), new Coffee(), new PinkSlip(), new Briefcase(), new PaperPlane(), new VotedBadge(),
-		    new Pizza()}, ItemDrops.Amount(1, 3));
+		drops = ItemDrops.FromPool(new Item[] {new Smartphone(), new Coffee(), new PinkSlip(), new Baton(), new Exam(), new VotedBadge(),
+		    new GoldenPizza()}, ItemDrops.Amount(1, 3));
 	}
 	
 	public override Item[] Loot () {
@@ -149,6 +172,7 @@ public class StudentBodyPresident : Character {
 		Party.UseSP(sp * -1);
 		Item[] dropped = drops;
 		drops = new Item[0];
+		Areas.defeatedS = true;
 		return dropped;
 	}
 	

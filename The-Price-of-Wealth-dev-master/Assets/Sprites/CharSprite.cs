@@ -10,6 +10,7 @@ public class CharSprite : MonoBehaviour {
 	public int defaultY;
 	public Image healthBar;
 	public Text charText;
+	public Image statImage;
 	public int slot;
 	public bool player;
 	static CharSprite displaced;
@@ -21,6 +22,8 @@ public class CharSprite : MonoBehaviour {
 	int delay;
 	int hp;
 	public bool freezeHealth;
+	public Sprite[] sprites;
+	public Dictionary<string, int> spriteDictionary;
 	
 	// Use this for initialization
 	void Start () {
@@ -52,6 +55,13 @@ public class CharSprite : MonoBehaviour {
 		delay = 0;
 		freezeHealth = false;
 		HPActual();
+
+		spriteDictionary = new Dictionary<string, int>();
+		spriteDictionary.Add("accuracy", 0); spriteDictionary.Add("apathy", 1); spriteDictionary.Add("blind", 2); spriteDictionary.Add("charge", 3);
+		spriteDictionary.Add("defense", 4); spriteDictionary.Add("dexterity", 5); spriteDictionary.Add("evasion", 6); spriteDictionary.Add("goop", 7);
+		spriteDictionary.Add("guard", 8); spriteDictionary.Add("healing", 9); spriteDictionary.Add("heart", 10); spriteDictionary.Add("nullAttack", 11);
+		spriteDictionary.Add("nullDefense", 12); spriteDictionary.Add("poison", 13); spriteDictionary.Add("power", 14); spriteDictionary.Add("regeneration", 15);
+		spriteDictionary.Add("skip", 16); spriteDictionary.Add("sleep", 17); spriteDictionary.Add("sword", 18); spriteDictionary.Add("stun", 19);  
 	}
 	
 	// Update is called once per frame
@@ -64,9 +74,14 @@ public class CharSprite : MonoBehaviour {
 		}
 		if (delay == 10) {
 			charText.text = "";
+			statImage.gameObject.SetActive(false);
 		} else if (delay == 0 && backlog.Count > 0) {
 			charText.text = backlog.Dequeue();
-			spritelog.Dequeue();
+			string spriteString = spritelog.Dequeue();
+			if (spriteString != "none") {
+				statImage.gameObject.SetActive(true);
+				statImage.sprite = sprites[spriteDictionary[spriteString]];
+			}
 			delay = 40;
 		}
 		if (delay > 0) {

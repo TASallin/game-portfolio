@@ -10,7 +10,7 @@ public class PoisonCoffee : Event {
 		Event success = new Event();
 		success.text = "The coffee is perfectly fine. The suspicious person drank from his cup and immediately keeled over";
 		success.options1 = new LinkedList<TimedMethod>();
-		success.options1.AddLast(new TimedMethod(0, "StatusChange", new object[] {"Coffee", null}));
+		success.options1.AddLast(new TimedMethod(0, "Item", new object[] {new Item[] {new Coffee()}}));
 		success.options1.AddLast(new TimedMethod("Resolve"));
 		success.optionText1 = "...";
 		Event failure = new Event();

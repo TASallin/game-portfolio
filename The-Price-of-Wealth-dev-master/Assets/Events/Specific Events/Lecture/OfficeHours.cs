@@ -11,6 +11,7 @@ public class OfficeHours : Event {
 		ally.text = "With the situation resolved, the student offers to join you";
 		ally.options1 = new LinkedList<TimedMethod>();
 		ally.options1.AddLast(new TimedMethod(0, "Ally", new object[] {new Character[] {new MathMajor()}}));
+		ally.options1.AddLast(new TimedMethod("Resolve"));
 		ally.optionText1 = "Recruit the math major";
 		ally.options2 = new LinkedList<TimedMethod>();
 		ally.options2.AddLast(new TimedMethod("Resolve"));

@@ -60,6 +60,7 @@ public class PartyMenu : MonoBehaviour {
 				}
 			} else {
 				c.interactable = false;
+				c.GetComponentInChildren<TextMeshProUGUI>().text = "empty";
 			}
 			
 			Button b = Enemy(i);
@@ -172,6 +173,7 @@ public class PartyMenu : MonoBehaviour {
 	}
 
 	public void Reject() {
+		Party.fullRecruit = null;
 		if (Battle.inBattle) {
 			Battle.instance.Cancel(transform.name);
 			Battle.instance.Win();
@@ -185,6 +187,7 @@ public class PartyMenu : MonoBehaviour {
 	public void Kick () {
 		Party.members[active - 1] = null;
 		Party.playerCount--;
+		CloseParty();
 	}
 	
 	public void Special () {

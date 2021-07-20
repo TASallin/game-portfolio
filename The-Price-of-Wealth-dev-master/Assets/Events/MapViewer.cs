@@ -12,6 +12,7 @@ public class MapViewer : MonoBehaviour {
 	public GameObject edgeLine;
 	public Transform edgeSpace;
 	public Text mapText;
+	public static Event stored;
 	
 	void Start () {
 		UpdateMap();
@@ -82,6 +83,7 @@ public class MapViewer : MonoBehaviour {
 			if (id.Contains("Boss")) {
 				Areas.cleared[location] = true;
 				Time.Increment(5);
+				stored = current;
 			}
 		    eventCatcher.RunEvent(current);
 		    //Temporary solution
@@ -120,7 +122,7 @@ public class MapViewer : MonoBehaviour {
 		graph.cleared[graph.position] = false;
 		if (graph.position.Contains("Boss")) {
 			Areas.cleared[location] = false;
-			graph.eventMap[graph.position] = current;
+			graph.eventMap[graph.position] = stored;
 		}
 		graph.position = graph.previousPosition;
 		UpdateMap();

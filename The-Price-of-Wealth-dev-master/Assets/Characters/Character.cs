@@ -114,6 +114,7 @@ public class Character {
 	public bool GetGooped () {return status.gooped;}
 	public bool GetPassing () {return status.passing;}
 	public bool GetApathy () {return status.apathetic > 0;}
+	public bool GetPossessed() {return status.possessed > 0;}
 	
 	//The method called when pressing the attack button
 	public virtual TimedMethod[] BasicAttack() {

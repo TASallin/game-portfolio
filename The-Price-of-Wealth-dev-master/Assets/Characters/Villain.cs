@@ -64,21 +64,21 @@ public class Villain : Character {
 	public TimedMethod[] Knife () {
 		Attacks.SetAudio("Knife", 6);
 		return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {"The Megalomaniac used the knife"}),
-		    new TimedMethod(0, "AudioNumbered", new object[] {"Attack", 3, 4}), new TimedMethod(0, "Audio", new object[] {"Small Swing"}),
+		    new TimedMethod(0, "Audio", new object[] {"Small Swing"}),
 	    	new TimedMethod(0, "StagnantAttack", new object[] {false, 5, 5, GetAccuracy(), true, true, true})};
 	}
 	
 	public TimedMethod[] Pistol () {
 		Attacks.SetAudio("Blunt Hit", 6);
 		return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {"The Megalomaniac shot the pistol"}),
-		    new TimedMethod(0, "AudioNumbered", new object[] {"Attack", 3, 4}), new TimedMethod(0, "Audio", new object[] {"Gunfire"}),
+		    new TimedMethod(0, "Audio", new object[] {"Gunfire"}),
 	    	new TimedMethod(0, "StagnantAttack", new object[] {false, 10, 10, GetAccuracy() / 2, true, true, false})};
 	}
 	
 	public TimedMethod[] Acid () {
 		Attacks.SetAudio("Poison Damage", 15);
 		return new TimedMethod[] {new TimedMethod(60, "Log", new object[] {"The Megalomaniac threw an acid bomb"}),
-		    new TimedMethod(0, "AudioNumbered", new object[] {"Attack", 3, 4}), new TimedMethod(0, "AudioAfter", new object[] {"S Explosion", 30}),
+		    new TimedMethod(0, "AudioAfter", new object[] {"S Explosion", 30}),
 	    	new TimedMethod(0, "AttackAll", new object[] {false, 2, 2, GetAccuracy(), true, true, false})};
 	}
 	

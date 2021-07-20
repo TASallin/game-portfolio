@@ -7,7 +7,7 @@ public class Hypnotize : Special {
 		if (Attacks.EvasionCycle(Party.GetPlayer().GetAccuracy() * 2, Party.GetEnemy())) {
 		    sleepPart = Party.GetEnemy().status.Sleep();
 		}
-		return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Hypnotize"}),
+		return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Hypnosis"}),
 		    sleepPart[0], sleepPart[1]};
 	}
 }

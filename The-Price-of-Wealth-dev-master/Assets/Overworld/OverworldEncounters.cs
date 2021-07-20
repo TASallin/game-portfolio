@@ -175,6 +175,15 @@ public class OverworldEncounters : MonoBehaviour {
 	}
 	
 	public Character[] Hard() {
+		int chance = rng.Next(10);
+		if (chance < 3) {
+			Character[] superboss = Superboss();
+			if (superboss != null) {
+				return superboss;
+			}
+		}
+
+
 		int n = rng.Next(29);
 		if (n == 0) {
 			return new Character[] {new FootballPlayer(), new Chef(), new Chef()};
@@ -238,6 +247,14 @@ public class OverworldEncounters : MonoBehaviour {
 	}
 	
 	public Character[] Deadly() {
+		int chance = rng.Next(10);
+		if (chance < 6) {
+			Character[] superboss = Superboss();
+			if (superboss != null) {
+				return superboss;
+			}
+		}
+
 		int n = rng.Next(29);
 		if (n == 0) {
 			return new Character[] {new FootballPlayer(), new FootballPlayer(), new FootballPlayer(), new FootballPlayer()};
@@ -306,5 +323,60 @@ public class OverworldEncounters : MonoBehaviour {
 		Time.Increment();
 		SceneManager.LoadScene("Battle");
 		return;
+	}
+
+	public Character[] Superboss() {
+		Item[] items = Party.GetItems();
+		bool robber = true;
+		foreach (Item item in items) {
+			if (item == null) {
+				robber = false;
+				break;
+			}
+		}
+
+		bool president = Party.playerCount == 4;
+
+		bool frat = Time.timeUnit >= 40;
+
+		if (robber && !Areas.defeatedR) {
+			return new Character[] {new Dummy(), new Robber()};
+		} else if (frat && !Areas.defeatedF) {
+			return new Character[] {new FratLord()};
+		} else if (president && !Areas.defeatedS) {
+			return PresidentEncounter();
+		} else {
+			return null;
+		}
+	}
+
+	public Character[] PresidentEncounter() {
+		Character[] chosen = new Character[4];
+		for (int i = 0; i < 3; i++) {
+			int n = rng.Next(10);
+			if (n == 0) {
+				chosen[i] = new CSMajor();
+			} else if (n == 1) {
+				chosen[i] = new MusicMajor();
+			} else if (n == 2) {
+				chosen[i] = new PoliticalScientist();
+			} else if (n == 3) {
+				chosen[i] = new FootballPlayer();
+			} else if (n == 4) {
+				chosen[i] = new BusinessMajor();
+			} else if (n == 5) {
+				chosen[i] = new EnglishMajor();
+			} else if (n == 6) {
+				chosen[i] = new ChemistryMajor();
+			} else if (n == 7) {
+				chosen[i] = new CJMajor();
+			} else if (n == 8) {
+				chosen[i] = new CulinaryMajor();
+			} else {
+				chosen[i] = new PsychMajor();
+			}
+		}
+		chosen[3] = new StudentBodyPresident();
+		return chosen;
 	}
 }

@@ -3,12 +3,12 @@ public class Watermelon : Character {
     public Watermelon() {
 	    health = 7; maxHP = 7; strength = 1; power = 0; charge = 0; defense = 0; guard = 0;
 		baseAccuracy = 0; accuracy = 0; dexterity = 0; evasion = 0; type = "Watermelon"; passive = new Passive(this);
-		quirk = Quirk.GetQuirk(this); special = null; player = false; champion = false; recruitable = false;
+		quirk = new Passive(this); special = null; player = false; champion = false; recruitable = false;
 		status.goopImmune = true; CreateDrops();
     }	
 	
 	public override TimedMethod[] EnemyTurn () {
-	    FratLord f = (FratLord) Party.GetEnemy(1);
+	    FratLord f = (FratLord) Party.GetEnemy(0);
 		return f.Fail();
 	}
 	

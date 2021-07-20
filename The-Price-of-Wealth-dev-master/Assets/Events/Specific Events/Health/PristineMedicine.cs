@@ -17,7 +17,6 @@ public class PristineMedicine : Event {
 			options1.AddLast(new TimedMethod(0, "CauseEvent", new object[] {new TextEvent("Ironically it was a test of speed to acquire" 
 		    	+ " something to advance it. Your lead party member was not fast enough; the stranger nabs the item and dashes off")}));
 		}
-		options1.AddLast(new TimedMethod(0, "Battle", new object[] {new Character[] {new Doctor()}}));
 		optionText1 = "Get there first";
 		options2 = new LinkedList<TimedMethod>();	
 		if (new System.Random().Next(2) == 0) {

@@ -154,7 +154,7 @@ public class Dungeon : MonoBehaviour {
 			e.option4.gameObject.SetActive(false);
 		}
 		
-		//nextMenu.SetActive(false);
+		nextMenu.SetActive(false);
 		try {
 		next.GetComponent<Button>().interactable = false;
 		next.GetComponent<Button>().interactable = false;
@@ -165,7 +165,7 @@ public class Dungeon : MonoBehaviour {
 	}
 	
 	public void Resolve () {
-		//nextMenu.SetActive(true);
+		nextMenu.SetActive(true);
 		next.GetComponent<Button>().interactable = true;
 		next.GetComponent<Button>().interactable = true;
 		dungeonMaps.SetActive(true);
@@ -178,6 +178,7 @@ public class Dungeon : MonoBehaviour {
 	}
 	
 	public void Escape () {
+		nextMenu.SetActive(true);
 		next.GetComponent<Button>().interactable = true;
 		next.GetComponent<Button>().interactable = true;
 		dungeonMaps.SetActive(true);
@@ -194,6 +195,7 @@ public class Dungeon : MonoBehaviour {
 	public void EscapeEnemies () {
 		next.GetComponent<Button>().interactable = true;
 		next.GetComponent<Button>().interactable = true;
+		Areas.followUp = null;
 		dungeonMaps.SetActive(true);
 		isEvent = false;
 		eventSpace.SetActive(false);
@@ -230,7 +232,7 @@ public class Dungeon : MonoBehaviour {
 				method.Invoke(this, null);
 			} else {
 				method.Invoke(this, current.args);
-			}	
+			}
 		}
 	}
 	
@@ -290,6 +292,7 @@ public class Dungeon : MonoBehaviour {
 	}
 	
 	public void Item (Item[] loot) {
+		//Party.ClearLoot();
 		foreach (Item current in loot) {
 			Party.AddLoot(current);
 		}

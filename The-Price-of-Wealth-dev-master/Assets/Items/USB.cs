@@ -11,6 +11,6 @@ public class USB : Item {
 			statPart = new TimedMethod(0, "CharLogSprite", new object[] {"2", Party.playerSlot - 1, "charge", true});
 		}
 		return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Small Swing"}), new TimedMethod(0, "StagnantAttack", new object[] {
-		    true, 1, 1, Party.GetPlayer().GetAccuracy(), false, false, false}), statPart};
+		    true, 1, 1, Party.GetPlayer().GetAccuracy(), true, false, false}), statPart};
 	}
 }

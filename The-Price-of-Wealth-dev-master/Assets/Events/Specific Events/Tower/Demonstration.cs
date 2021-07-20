@@ -7,7 +7,7 @@ public class Demonstration : Event {
 	public override void Enact () {
 		text = "You are ambushed! A group of like-dressed people behind you speak in unison: \"We represent the googoo party."
 		    + " We must stop the meepmeep party from gaining any political power. To get support, we bar any from passing unless they read"
-			+ " This manifest\n. One waves a 300 page book around";
+			+ " This manifest.\n One waves a 300 page book around";
 		options1 = new LinkedList<TimedMethod>();
 		options1.AddLast(new TimedMethod(0, "Battle", new object[] {new Character[] {new PoliticalScientist(), new PoliticalScientist(),
 		new PoliticalScientist(), new PoliticalScientist()}}));

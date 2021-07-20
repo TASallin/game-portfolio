@@ -39,7 +39,9 @@ public class AreaSpotlight : MonoBehaviour {
 		}
 	}
 	
-	public void Shop () {}
+	public void Shop () {
+		SceneManager.LoadScene("Shop");
+	}
 	
 	public void Invest () {
 		Event e = Investigate.Get(location);

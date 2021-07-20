@@ -48,18 +48,17 @@ public class HelpMenu : MonoBehaviour {
         "A Primary Special can only be used in the lead. A Support Special can be used from any position\n" +
 		"A tactical special can be used by any member of the party\n" +
 		"<b>Item:</b> Use an item\nDefense: Pull up the defense menu\nBlock: Gain 5 guard, decreasing in value with successive use\n" +
-		"<b>Dodge:</b> Gain 5 evasion\nRun: Run from the battle. The enemy team will take 1 more turn. Currently, you can't run in buildings (will change)\n",
+		"<b>Dodge:</b> Gain 5 evasion\nRun: Run from the battle. The enemy team will take 1 more turn.\n",
 		
 		"<u><b>Battle Actions</b></u>\n\n" +
 		"<b>Party:</b> Pull up the party menu and see details for the party and enemy team\n" +
 		"<b>Switch:</b> put another character in the lead. This consumes a turn\n" +
-		"<b>Recruit:</b> Attempt to bring the enemy to your side. They must be alone and not-possessed (college students are not-possessed)",
+		"<b>Recruit:</b> Attempt to bring the enemy to your side.",
 		
 		"<u><b>Battle Mechanics</b></u>\n\nEach round consists of a passive check, the player turn, then the enemy turn\n" +
 		"The battle ends when all enemies are neutralized in some way, a boss is defeated, or the player character is defeated\n" +
-		"The player character is the powerful one you get at the start of the game that should get a special graphic eventually\n" +
-		"At the end of the battle, you gain items from defeated enemies unless the player team fled\n" +
-		"This will get more detailed later",
+		"The player character is the powerful one you get at the start of the game\n" +
+		"At the end of the battle, you gain items from defeated enemies unless the player team fled\n",
 		
 		"<u><b>Party and Bag</b></u>\n\nYour party has room for 4 characters. You can still recruit characters on a full party, but someone will have to leave\n" +
 		"Each character has a random quirk which acts as a second passive\n" +
@@ -68,12 +67,12 @@ public class HelpMenu : MonoBehaviour {
 		
 		"<u><b>Exploration</b></u>\n\nThe overworld map shows all the locations you can visit and will show paths that connect them\n" +
 		"Traveling to a location starts a random battle\nAt a location, you can enter or investigate\n" +
-		"Investigating causes a random event to occur\nEntering takes you to the dungeon, where you will face a sequence of events then a boss\n" +
+		"Investigating causes a random event to occur\nEntering takes you to the dungeon, where a boss awaits somewhere on the map\n" +
 		"You are free to use items, specials, and leave an area between events\n" +
 		"After beating the boss and taking the final reward, you will have cleared the area and a trading post will open there\n",
 		
 		"<u><b>Exploration</b></u>\n\n" +
-		"<b>Trading Post</b> - You can trade items and SP for other items, recruits, and services\n" +
+		"<b>Shop</b> - You can trade items and SP for other items, recruits, and services\n" +
 		"<b>Time</b> - All random events and progressing through locations increments a hidden counter\n" +
 	    "Random events will become more difficult as this counter progresses"};
 		index = 0;

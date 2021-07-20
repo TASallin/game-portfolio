@@ -23,7 +23,7 @@ public class Librarian : Event {
 		optionText2 = "Try to recruit";
 		options2.AddLast(new TimedMethod(0, "SpendTime", new object[] {3}));
     	options2.AddLast(new TimedMethod(0, "Apathize", new object[] {1}));
-		options2.AddLast(new TimedMethod(0, "Ally", new object[] {new EnglishMajor()}));
+		options2.AddLast(new TimedMethod(0, "Ally", new object[] {new Character[] {new EnglishMajor()}}));
 		options2.AddLast(new TimedMethod(0, "CauseEvent", new object[] {new TextEvent("The librarian walks over to your group and spends quite some"
 			    + " time silently gesturing to books and looking angry. Suddenly they just start walking towards the exit. It worked?"
 			    + " (Time passed + party gains apathy + new recruit)")}));

@@ -6,7 +6,9 @@ public class Heels : Item {
 	public Heels (int uses) {name = "Heels"; this.uses = uses; description = "Attack with piercing. Usable " + uses.ToString() + " more times";}
 	
 	public override TimedMethod[] Use() {
-		Party.AddItem(new Heels(uses - 1));
+		if (uses > 1) {
+			Party.AddItem(new Heels(uses - 1));
+		}
 		Attacks.SetAudio("Knife", 6);
 		return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Small Swing"}),
 		    new TimedMethod(0, "StagnantAttack", new object[] {true, Party.GetPlayer().GetStrength(),

@@ -27,6 +27,9 @@ public static class Areas {
 	public static bool defeatedP;
 	public static bool defeatedC;
 	public static bool defeatedG;
+	public static bool defeatedR;
+	public static bool defeatedS;
+	public static bool defeatedF;
 	public static bool tutorialPlayed;
 	
 	public static void Initialize () {
@@ -65,9 +68,14 @@ public static class Areas {
 		defeatedP = false;
 		defeatedC = false;
 		defeatedG = false;
+		defeatedR = false;
+		defeatedS = false;
+		defeatedF = false;
 		Battle.inBattle = false;
 		Dungeon.fled = false;
 		tutorialPlayed = false;
+		Status.firewall = false;
+		Status.catalyst = 0;
 		location = Map.currentPosition;
 		Score.Reset();
 		Investigate.Initialize();

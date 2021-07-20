@@ -10,6 +10,6 @@ public class Tumble : Special {
 		}
 		Party.GetPlayer().GainEvasion(Party.GetPlayer().GetEvasion());
 		return new TimedMethod[] {new TimedMethod(0, "Audio", new object[] {"Skill1"}), new TimedMethod(0, "Audio", new object[] {"Running"}),
-		    new TimedMethod(60, "Log", new object[] {Party.GetPlayer().ToString() + " used advance moves"}), evadePart};
+		    new TimedMethod(60, "Log", new object[] {Party.GetPlayer().ToString() + " used advanced moves"}), evadePart};
 	}
 }
